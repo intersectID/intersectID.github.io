@@ -17,8 +17,10 @@ author: INTERSECT Team
 
 navbar-links:
   Home: "index"
-  Submissions: "#"  
+  Submission: "submission"
+  Competition: "competition"
   Committee: "#organizers"
+  Registration: "registration"
   Contact: "#contact"
 #  External Links:
 #    - SISL: "https://sisl.stanford.edu"
