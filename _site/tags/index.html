@@ -12,7 +12,7 @@
   <title>Tag Index</title>
 
   
-  <meta name="author" content="INTERSECT Team">
+  <meta name="author" content="INTERSECT Indonesia">
   
 
   <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
@@ -124,6 +124,18 @@
 
   
 
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "headline": "Tag Index",
+        "description": "{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...",
+        "image": "http://localhost:4000/",
+        "url": "http://localhost:4000/tags/"
+      }
+      </script>
 
   
 
@@ -260,7 +272,7 @@
       
       <p class="copyright text-muted">
       
-        INTERSECT Team
+        INTERSECT Indonesia
         &nbsp;&bull;&nbsp;
       
       2024
@@ -268,7 +280,7 @@
       
         &nbsp;&bull;&nbsp;
         <span class="author-site">
-          <a href="http://localhost:4000/">intersectID.github.io</a>
+          <a href="http://localhost:4000/">INTERSECT.id</a>
         </span>
       
 

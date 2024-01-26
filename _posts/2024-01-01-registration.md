@@ -3,6 +3,7 @@ layout: default
 title: Registration
 permalink: registration
 published: true
+share-img: /assets/img/intersect24-banner.png
 ---
 
 ## Registration

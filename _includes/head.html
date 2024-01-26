@@ -136,6 +136,18 @@
 
   {% include matomo.html %}
 
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "headline": "{{ title }}",
+        "description": "{{ description }}",
+        "image": "{{ img | absolute_url }}",
+        "url": "{{ page.url | absolute_url }}"
+      }
+      </script>
+
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}

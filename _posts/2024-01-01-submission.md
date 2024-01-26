@@ -4,6 +4,7 @@ title: Submission
 # subtitle: Indonesia at the Crossroad of Technology, Sustainability, and Society
 permalink: submission
 published: true
+share-img: /assets/img/intersect24-deadlines.png
 ---
 
 ## Submission
