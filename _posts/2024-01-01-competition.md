@@ -33,7 +33,7 @@ The competition invites high school students to submit short research papers rel
 - Include one page of each student's CV (including name, school, and contact information).
 - Include one page of the supervising teacher's CV (including name, school, and contact information).
 - Include a letter of recommendation from the school principal or supervising teacher, confirming the student's enrollment and participation in the competition.
-- Include the proof of payment of the competition registration fee.
+- Include the proof of payment of the competition [registration fee](registration).
 - Combine all documents with the paper into a single PDF file and submit it through the [submission system](#) before the deadline.
 
 ### Key Dates
