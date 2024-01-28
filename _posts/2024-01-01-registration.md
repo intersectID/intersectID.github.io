@@ -20,7 +20,7 @@ Registration is mandatory for all symposium and competition participants. Please
 
 ### Payment
 
-Payment can be made through bank transfer ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) or PayPal ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg). Please note that the registration fee is non-refundable. Please send proof of payment as attachment to [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com) with your registration number as the subject.
+Payment can be made through bank transfer![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) or PayPal![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg). Please note that the registration fee is non-refundable. Please send proof of payment as attachment to [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com) with your registration number as the subject.
 
 ### Contact
 

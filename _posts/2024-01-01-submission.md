@@ -8,8 +8,11 @@ share-img: /assets/img/intersect24-deadlines.png
 ---
 
 ## Submission
+Please use this [template](/assets/templates/INTERSECT_LaTeX_template.pdf){:target="_blank"} for your submission. The editable file is available below:
+- [MS Word](/assets/templates/INTERSECT_MSWord_template.docx)
+- [LaTeX](/assets/templates/INTERSECT-LaTeX-template.zip)
 
-Please submit your full or extended papers electronically through Open Review submission system![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg), either in MS Word ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) or LaTeX ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) format. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com).
+Please submit your full or extended abstract electronically through OpenReview![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) as a .pdf, .docx, or .zip file. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com){:target="_blank"}.
 
 Upon submission, your manuscript will undergo an initial review for suitability by the conference organizers. It may then be forwarded to two or more program committees for further review, or potentially rejected at this stage. To ensure a smooth review process, kindly adhere to the following guidelines:
 
@@ -25,9 +28,9 @@ Upon submission, your manuscript will undergo an initial review for suitability 
 10. Tables should offer new information, not just repeat text, and be clearly numbered and captioned. Ensure tables are editable and not presented as images.
 11. Insert figures and tables directly into the paper with clear captions, avoiding placement at the end.
 12. Manuscripts should not exceed 8 pages, including figures and tables, but excluding references.
-13. Use APA style for referencing.
+13. Use [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples){:target="_blank"} style for referencing.
 14. Avoid footnotes and end-notes.
 15. Acknowledgements, particularly of funding sources, should precede the reference list.
-16. Use the provided templates (MS Word ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) and LaTeX ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg)) for your manuscript without altering the format and style.
+16. Use the provided templates ([MS Word](/assets/templates/INTERSECT_MSWord_template.docx) and [LaTeX](/assets/templates/INTERSECT-LaTeX-template.zip)) for your manuscript without altering the format and style.
 
 Thank you for your interest in contributing to INTERSECT 2024, and we look forward to your submissions.
