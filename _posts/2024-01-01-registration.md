@@ -12,13 +12,7 @@ Registration is mandatory for all symposium and competition participants. Please
 
 ### Registration Fees (in USD)
 
-| Category             | Early Bird        |  Normal   | 
-| ---------------------| -----------      | --------- | 
-| [Young Researcher Competition (High School Students)](competition) | $10  | $10 |
-| Students* (with full paper/abstract)           | $50  | $100 | 
-| Early-Career Academic** (<3 years of graduating, with full paper/abstract) | $100  | $150 |
-| Academic/Professional (with full paper/abstract) | $150 | $200 |
-| Remote Listener (without paper/abstract) | $25 | $50 |
+{% include registration-table.html%}
 
 
 *Students must provide proof of enrollment in an accredited institution.\\
