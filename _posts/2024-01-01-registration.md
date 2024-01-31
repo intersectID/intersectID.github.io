@@ -8,7 +8,7 @@ share-img: /assets/img/intersect24-banner.png
 
 ## Registration
 
-Registration is mandatory for all symposium and competition participants. Please register through our registration system ![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) before the deadline. We cannot accommodate any last-minute registration.
+Registration is mandatory for all symposium and competition participants. Please register through [EventBrite](https://intersect2024.eventbrite.com) before the deadline. We cannot accommodate any last-minute registration. If you are registering as presenters (students, early-career academics, or senior academic/professionals), you will need your submission number to complete the registration. You can find your submission number in the email notification sent to you after your submission is accepted. If you have not received the email, please contact us at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com).
 
 ### Registration Fees (in USD)
 
@@ -20,7 +20,7 @@ Registration is mandatory for all symposium and competition participants. Please
 
 ### Payment
 
-Payment can be made through bank transfer![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) or PayPal![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg). Please note that the registration fee is non-refundable. Please send proof of payment as attachment to [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com) with your registration number as the subject.
+Payment is to be made directly within the [registration system](https://intersect2024.eventbrite.com). Please note that the registration fee is non-refundable. 
 
 ### Contact
 

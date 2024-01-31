@@ -12,7 +12,7 @@ Please use this [template](/assets/templates/INTERSECT_LaTeX_template.pdf){:targ
 - [MS Word](/assets/templates/INTERSECT_MSWord_template.docx)
 - [LaTeX](/assets/templates/INTERSECT-LaTeX-template.zip)
 
-Please submit your full or extended abstract electronically through OpenReview![Generic badge](https://img.shields.io/badge/ToBeAdded-FF0000.svg) as a .pdf, .docx, or .zip file. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com){:target="_blank"}.
+Please submit your full or extended abstract electronically through [OpenReview](https://openreview.net/group?id=intersect.id/INTERSECT/2024/Symposium) as a .pdf, .docx, or .zip file. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com){:target="_blank"}.
 
 Upon submission, your manuscript will undergo an initial review for suitability by the conference organizers. It may then be forwarded to two or more program committees for further review, or potentially rejected at this stage. To ensure a smooth review process, kindly adhere to the following guidelines:
 

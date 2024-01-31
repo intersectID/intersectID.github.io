@@ -33,8 +33,8 @@ The competition invites high school students to submit short research papers rel
 - Include one page of each student's CV (including name, school, and contact information).
 - Include one page of the supervising teacher's CV (including name, school, and contact information).
 - Include a letter of recommendation from the school principal or supervising teacher, confirming the student's enrollment and participation in the competition.
-- Include the proof of payment of the competition [registration fee](registration).
-- Combine all documents with the paper into a single PDF file and submit it through the [submission system](#) before the deadline.
+- Combine all documents with the paper into a single PDF file and submit it through [OpenReview](https://openreview.net/group?id=intersect.id/INTERSECT/2024/Symposium) before the deadline.
+- Pay the registration fee through our [EventBrite registration system](https://intersect2024.eventbrite.com) (you will need your submission number to complete the registration).
 
 ### Key Dates
 
