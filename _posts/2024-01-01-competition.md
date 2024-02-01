@@ -8,7 +8,7 @@ share-img: /assets/img/intersect24-deadlines.png
 
 ## Young Researcher Competition (For High School Students)
 
-Welcome to the Young Researcher Competition, a unique opportunity for high school students in Indonesia to showcase their research skills and contribute to the theme of **Indonesia at the Crossroad of Technology, Sustainability, and Society**. This competition is part of **INTERSECT 2024**, held at [Stanford University](https://www.stanford.edu/) on [August 15<sup>th</sup>, 2024](#important-dates).
+Welcome to the Young Researcher Competition, a unique opportunity for high school students in Indonesia to showcase their research skills and contribute to the theme of **Indonesia at the Crossroad of Technology, Sustainability, and Society**. This competition is part of **INTERSECT 2024**, held at [Stanford University](https://www.stanford.edu/) on [August 2<sup>nd</sup>, 2024](#important-dates).
 
 ### Overview
 
@@ -40,7 +40,7 @@ The competition invites high school students to submit short research papers rel
 
 - **Submission Deadline**: April 1<sup>st</sup>, 2024, 23:59:59 Anywhere on Earth (AoE)
 - **Notification of Finalists**:  July 1<sup>st</sup>, 2024
-- **Final Presentation at the Symposium**: August 15<sup>th</sup>, 2024
+- **Final Presentation at the Symposium**: August 2<sup>nd</sup>, 2024
 
 ### Awards
 

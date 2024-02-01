@@ -250,6 +250,13 @@ em {
     margin-bottom: 5px; /* Spacing between image and text */
 }
 
+/* For phone screens */
+@media screen and (max-width: 600px) {
+    .organizer {
+        flex-basis: 50%; /* Each organizer takes full width */
+    }
+}
+
 
 .speakers {
     display: flex;
@@ -272,21 +279,42 @@ em {
     /* margin-bottom: 5px; Spacing between image and text */
 }
 
-
-
-
-/* For phone screens */
-@media screen and (max-width: 600px) {
-    .organizer {
-        flex-basis: 50%; /* Each organizer takes full width */
-    }
-}
-
 @media screen and (max-width: 600px) {
     .speaker {
         flex-basis: 100%; /* Each organizer takes full width */
     }
 }
+
+
+
+.panelists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.panelist {
+    flex-basis: 15%; /* Adjust this percentage to control the width of each organizer's block */
+    margin-bottom: 10px; /* Spacing between rows */
+    margin-top: 10px; /* Spacing between rows */
+    font-size: 1em;
+}
+
+.panelist img.img-circle {
+    width: 90px; /* Control the size of the image */
+    height: 90px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire area without stretching */
+    margin-bottom: 5px; /* Spacing between image and text */
+}
+
+/* For phone screens */
+@media screen and (max-width: 600px) {
+    .panelist {
+        flex-basis: 30%; /* Each organizer takes full width */
+    }
+}
+
 
 
 .image-banner {

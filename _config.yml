@@ -19,7 +19,8 @@ navbar-links:
   Home: "index"
   Submission: "submission"
   Competition: "competition"
-  Committee: "#organizers"
+  Programs: "programs"
+  Organizers: "#organizers"
   Registration: "registration"
   Contact: "#contact"
 #  External Links:
