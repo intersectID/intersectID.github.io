@@ -236,7 +236,7 @@ em {
 }
 
 .organizer {
-    flex-basis: 18%; /* Adjust this percentage to control the width of each organizer's block */
+    flex-basis: 30%; /* Adjust this percentage to control the width of each organizer's block */
     margin-bottom: 10px; /* Spacing between rows */
     margin-top: 10px; /* Spacing between rows */
     font-size: 1em;
