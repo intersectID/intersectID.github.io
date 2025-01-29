@@ -6,7 +6,7 @@ description: "Contact information for INTERSECT 2025"
 keywords: "contact, email, INTERSECT 2025"
 toc: true
 auto_toc: true
-date: 2025-01-29
+og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 ---
 
 

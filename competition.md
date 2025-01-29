@@ -7,6 +7,7 @@ keywords: "INTERSECT 2025, competition, young researchers, competition"
 toc: true
 auto_toc: true
 date: 2025-01-29
+og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 ---
 
 # Young Researcher Competition (For High School Students)

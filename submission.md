@@ -7,6 +7,7 @@ keywords: "INTERSECT 2025, submission, abstract, full paper, extended abstract"
 toc: true
 auto_toc: true
 date: 2025-01-29
+og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 ---
 
 ## Template

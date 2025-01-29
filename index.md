@@ -1,11 +1,11 @@
 ---
 layout: home
 title: "INTERSECT 2025"
-subtitle: "Building Indonesia's Sustainable Energy Future Through Innovation and Collaboration"
+subtitle: "Stanford, 17-20 Nov 2025 | Building Indonesia's Energy Future with Innovation & Collaboration"
 description: "An annual symposium for Indonesian academics, practitioners, and policy-makers in sustainability, tech, & society. This year, it will be held in Stanford University, USA on November 17-20, 2025."
 keywords: "INTERSECT 2025, sustainability, tech, society, Indonesia, Stanford University, USA"
 instructor: "Mansur M. Arief"
-og_image: "https://intersect.id/assets/img/intersect-logo.png"
+og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 last_updated: "Jan 28, 2025"
 date: 2025-01-28
 hidebreadcrumbs: true
