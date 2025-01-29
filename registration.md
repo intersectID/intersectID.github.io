@@ -1,7 +1,7 @@
 ---
 layout: main
 title: "Registration"
-subtitle: "Registration Page forINTERSECT 2025"
+subtitle: "Find info about registration fees for INTERSECT 2025 conference, workshop, and competition"
 description: "Registration information for INTERSECT 2025"
 keywords: "INTERSECT 2025, registration"
 toc: true

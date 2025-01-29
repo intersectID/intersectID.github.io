@@ -1,7 +1,7 @@
 ---
 layout: main
 title: "Submission"
-subtitle: "INTERSECT 2025"
+subtitle: "We can't wait to see your paper in INTERSECT 2025! Use our Word and LaTeX templates to submit your paper!"
 description: "Submission guidelines for INTERSECT 2025"
 keywords: "INTERSECT 2025, submission, abstract, full paper, extended abstract"
 toc: true

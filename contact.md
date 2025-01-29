@@ -1,7 +1,7 @@
 ---
 layout: main
 title: "Contact"
-subtitle: "Contact Info INTERSECT 2025"
+subtitle: "Contact us to get involved in INTERSECT 2025. Let's collaborate!"
 description: "Contact information for INTERSECT 2025"
 keywords: "contact, email, INTERSECT 2025"
 toc: true

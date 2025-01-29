@@ -1,7 +1,7 @@
 ---
 layout: main
 title: "Competition"
-subtitle: "Young Researchers Competition"
+subtitle: "(High School) Young Researchers Competition in INTERSECT 2025. We want youth's creativity to be part of the solution!"
 description: "Competition guidelines for Young Researchers in INTERSECT 2025"
 keywords: "INTERSECT 2025, competition, young researchers, competition"
 toc: true
