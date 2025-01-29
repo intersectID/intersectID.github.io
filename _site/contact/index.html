@@ -29,6 +29,34 @@
     
     
     
+
+    <style>
+        /* Disable dark mode globally */
+        :root {
+            color-scheme: light;
+        }
+        
+        /* Improve table responsiveness for all tables */
+        @media screen and (max-width: 768px) {
+            .table-wrapper {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                margin: 0 -1rem;
+                padding: 0 1rem;
+            }
+            
+            table {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+            }
+            
+            th, td {
+                min-width: 160px;
+                white-space: normal;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- TODO this file has become a mess, refactor it -->
