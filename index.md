@@ -34,10 +34,7 @@ hidebreadcrumbs: true
     <div class="speakers-grid">
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/arun-majumdar.jpg" alt="Arun Majumdar" style="object-position: center 15%;">
             </div>
             <h3 class="speaker-name">Arun Majumdar</h3>
             <p class="speaker-title">Dean of Stanford Doerr School of Sustainability</p>
@@ -45,21 +42,15 @@ hidebreadcrumbs: true
         
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/jef-caers.jpg" alt="Jef Caers">
             </div>
             <h3 class="speaker-name">Jef Caers</h3>
-            <p class="speaker-title">Director of Stanford MineralX, Professor in Earth and Planetary Sciences</p>
+            <p class="speaker-title">Director of MineralX, Professor in Earth and Planetary Sciences</p>
         </div>
         
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/george-anwar.jpg" alt="George Anwar">
             </div>
             <h3 class="speaker-name">George Anwar</h3>
             <p class="speaker-title">Professor in Mechanical Engineering, UC Berkeley</p>
@@ -67,46 +58,34 @@ hidebreadcrumbs: true
         
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/gita-wirjawan.webp" alt="Gita Wirjawan">
             </div>
-            <h3 class="speaker-name">Rachmat Kaimuddin</h3>
-            <p class="speaker-title">(Tentative)</p>
+            <h3 class="speaker-name">Gita Wirjawan</h3>
+            <p class="speaker-title">Stanford APARC Fellow, Former Minister of Trade, Republic of Indonesia</p>
         </div>
-        
+
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
-            </div>
-            <h3 class="speaker-name">Pandu Sjahrir</h3>
-            <p class="speaker-title">CEO of TBS Energy</p>
-        </div>
-        
-        <div class="speaker-card">
-            <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/dini-maghfirra.jpeg" alt="Dini Maghfirra">
             </div>
             <h3 class="speaker-name">Dini Maghfirra</h3>
             <p class="speaker-title">Executive Director of Satu Data Indonesia</p>
         </div>
+
+        <div class="speaker-card">
+            <div class="speaker-image">
+                <img src="/assets/img/rachmat-kaimuddin.jpeg" alt="Rachmat Kaimuddin">
+            </div>
+            <h3 class="speaker-name">Rachmat Kaimuddin</h3>
+            <p class="speaker-title">Deputy Minister of Infrastructure and Regional Development Ministry, Republic of Indonesia</p>
+        </div>
         
         <div class="speaker-card">
             <div class="speaker-image">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                    <circle cx="12" cy="7" r="4"/>
-                </svg>
+                <img src="/assets/img/pandu-sjahrir.webp" alt="Pandu Sjahrir" style="object-position: center 10%;">
             </div>
-            <h3 class="speaker-name">Gita Wirjawan</h3>
-            <p class="speaker-title">Fellow at Stanford APARC</p>
+            <h3 class="speaker-name">Pandu Sjahrir</h3>
+            <p class="speaker-title">President Director of TBS Energy, Director of Electrum</p>
         </div>
     </div>
     <ul>        
@@ -229,66 +208,65 @@ hidebreadcrumbs: true
     <div class="collab-grid">
         <div class="collab-card">
             <div class="collab-header">
-                <svg class="collab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                </svg>
-                <div>
-                    <h3 class="collab-title">Mineral-X</h3>
-                    <p class="collab-subtitle">Stanford Doerr School of Sustainability</p>
-                </div>
+                <a href="https://mineralx.stanford.edu/" target="_blank" rel="noopener">
+                    <img src="/assets/img/mineralx.png" alt="Stanford Center for Mineral-X logo" class="collab-logo">
+                    <div>
+                        <h3 class="collab-title">Mineral-X</h3>
+                        <p class="collab-subtitle">Stanford Doerr School of Sustainability</p>
+                    </div>
+                </a>
             </div>
             <p class="collab-desc">Innovates in sustainable mining & critical mineral supply chains with advanced technology and policy, aligning with Indonesia's vast resources & sustainability commitments.</p>
         </div>
 
         <div class="collab-card">
             <div class="collab-header">
-                <svg class="collab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    <path d="M9 12l2 2 4-4"/>
-                </svg>
-                <div>
-                    <h3 class="collab-title">Stanford Center for Earth Resources Forecasting</h3>
-                    <p class="collab-subtitle">SCERF, Doerr School of Sustainability</p>
-                </div>
+                <a href="https://scerf.stanford.edu/" target="_blank" rel="noopener">
+                    <img src="/assets/img/scerf.png" alt="Stanford Center for Earth Resources Forecasting logo" class="collab-logo">
+                    <div>
+                        <h3 class="collab-title">Stanford Center for Earth Resources Forecasting</h3>
+                        <p class="collab-subtitle">SCERF, Doerr School of Sustainability</p>
+                    </div>
+                </a>
             </div>
             <p class="collab-desc">Specializes in advancing technology for earth resource prediction and management to scale up geothermal, natural hydrogen, and carbon storage initiatives.</p>
         </div>
 
         <div class="collab-card">
             <div class="collab-header">
-                <svg class="collab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                </svg>
-                <div>
-                    <h3 class="collab-title">Precourt Institute for Energy</h3>
-                    <p class="collab-subtitle">Doerr School of Sustainability</p>
-                </div>
+                <a href="https://energy.stanford.edu/" target="_blank" rel="noopener">
+                    <img src="/assets/img/precourt.png" alt="Precourt Institute for Energy logo" class="collab-logo">
+                    <div>
+                        <h3 class="collab-title">Precourt Institute for Energy</h3>
+                        <p class="collab-subtitle">Doerr School of Sustainability</p>
+                    </div>
+                </a>
             </div>
             <p class="collab-desc">Leads groundbreaking research in clean energy technologies and energy systems analysis, providing insights for strategic renewable energy transition and grid modernization efforts.</p>
         </div>
 
         <div class="collab-card">
             <div class="collab-header">
-                <svg class="collab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                </svg>
-                <div>
-                    <h3 class="collab-title">Stanford Center for AI Safety</h3>
-                    <p class="collab-subtitle">SAFE, School of Computer Science</p>
-                </div>
+                <a href="https://aisafety.stanford.edu/" target="_blank" rel="noopener">
+                    <img src="/assets/img/safe.png" alt="Stanford Center for AI Safety logo" class="collab-logo">
+                    <div>
+                        <h3 class="collab-title">Stanford Center for AI Safety</h3>
+                        <p class="collab-subtitle">SAFE, School of Computer Science</p>
+                    </div>
+                </a>
             </div>
             <p class="collab-desc">Manages cutting-edge research in AI development and safety, offering essential expertise for Indonesia's growing tech, critical infrastructure, and policy amidst today's AI storms.</p>
         </div>
 
         <div class="collab-card">
             <div class="collab-header">
-                <svg class="collab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
-                </svg>
-                <div>
-                    <h3 class="collab-title">Stanford Intelligent Systems Lab</h3>
-                    <p class="collab-subtitle">SISL, School of Engineering</p>
-                </div>
+                <a href="https://sisl.stanford.edu/" target="_blank" rel="noopener">
+                    <img src="/assets/img/sisl.png" alt="Stanford Intelligent Systems Lab logo" class="collab-logo">
+                    <div>
+                        <h3 class="collab-title">Stanford Intelligent Systems Lab</h3>
+                        <p class="collab-subtitle">SISL, School of Engineering</p>
+                    </div>
+                </a>
             </div>
             <p class="collab-desc">Develops advanced algorithms and decision-making systems for complex engineering challenges, particularly relevant for energy transition and sustainability development.</p>
         </div>
