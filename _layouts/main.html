@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ page.subtitle }}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{{ page.description | default: 'INTERSECT 2025 page for ' | append: page.title | append: ' at ' | append: page.subtitle }}">
+    <meta name="author" content="{{ page.instructor | default: site.author }}">
+    <meta name="keywords" content="{{ page.keywords | default: page.title | append: ', ' | append: page.subtitle | append: ', course, education' }}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ page.title }} | {{ page.subtitle }}">
+    <meta property="og:description" content="{{ page.description | default: 'INTERSECT 2025 page for ' | append: page.title | append: ' at ' | append: page.subtitle }}">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }} | {{ page.subtitle }}">
+    <meta name="twitter:description" content="{{ page.description | default: 'INTERSECT 2025 page for ' | append: page.title | append: ' at ' | append: page.subtitle }}">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/home.css">
+
+    
+    {% if page.fullwidth %}
+    <style>
+        body {
+            grid-template-columns: none !important;
+        }
+    </style>
+    {% endif %}
+    {% if page.hidebreadcrumbs %}
+    <style>
+        .breadcrumbs {
+            display: none !important;
+        }
+    </style>
+    {% endif %}
+</head>
+<body>
+    {% include header.html %}
+
+    <main id="main-content" class="main-content" role="main" tabindex="-1">
+        <div class="table-wrapper">
+            {{ content | replace: '<table>', '<table class="table-schedule">' | 
+            replace: '<td style="text-align: left">', '<td style="text-align: left" data-label="Assignment">' |
+            replace: '<td style="text-align: center">', '<td style="text-align: center" data-label="Weight">' |
+            replace: '<td style="text-align: center">', '<td style="text-align: center" data-label="Cumulative">' }}
+        </div>
+    </main>
+
+    {% if page.toc != false %}
+    <aside class="sidebar" role="complementary" aria-label="Table of contents">
+        <h2>Table of Contents</h2>
+        <nav aria-label="On this page navigation">
+            {% if page.auto_toc %}
+                <ul>
+                {% assign content_lines = content | newline_to_br | split: '<br />' %}
+                {% for line in content_lines %}
+                    {% if line contains '<h2' and line contains 'id=' %}
+                        {% assign id = line | split: 'id="' | last | split: '"' | first %}
+                        {% assign title = line | split: '>' | last | split: '</h2' | first %}
+                        <li><a href="#{{ id }}">{{ title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% else %}
+                <ul>
+                    <li><a href="#course-objectives">Course objectives</a></li>
+                    <li><a href="#lectures">Lectures</a></li>
+                    <li><a href="#office-hours">Office hours</a></li>
+                    <li><a href="#textbooks">Textbooks</a></li>
+                    <li><a href="#other-resources">Other Resources</a></li>
+                    <li><a href="#grading">Grading and assignments</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#ai-policy">AI usage policy</a></li>
+                    <li><a href="#late-policy">Late policy</a></li>
+                    <li><a href="#disabilities">Disabilities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#acknowledgment">Acknowledgment</a></li>
+                </ul>
+            {% endif %}
+        </nav>
+    </aside>
+    {% endif %}
+
+    {% include footer.html %}
+</body>
+</html> 

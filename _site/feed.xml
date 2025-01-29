@@ -1,45 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    
-    <title>INTERSECT 2024</title>
-    
-    
+    <title>INTERSECT 2025</title>
+    <description>An annual symposium for Indonesian academics, practitioners, and policy-makers in sustainability, tech, &amp; society</description>
     <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jan 2025 01:19:15 -0800</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2025 01:19:15 -0800</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
     
-    
-      <item>
-        <title>Submission</title>
-        <description>
-          
-          Submission Please use this template for your submission. The editable file is available below: MS Word LaTeX Please submit your full or extended abstract electronically through OpenReview as a .pdf, .docx, or .zip file. Should you encounter any issues during...
-        </description>
-        <pubDate>Mon, 01 Jan 2024 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/submission</link>
-        <guid isPermaLink="true">http://localhost:4000/submission</guid>
-      </item>
     
       <item>
         <title>Registration</title>
-        <description>
-          
-          Registration Registration is mandatory for all symposium and competition participants. Please register through EventBrite before the deadline. We cannot accommodate any last-minute registration. If you are registering as presenters (students, early-career academics, or senior academic/professionals), you will need your submission...
-        </description>
-        <pubDate>Mon, 01 Jan 2024 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/registration</link>
-        <guid isPermaLink="true">http://localhost:4000/registration</guid>
+        <description>Registration information for INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/registration/</link>
+        <guid isPermaLink="true">http://localhost:4000/registration/</guid>
+        
+        
+        
+        <category>INTERSECT 2025</category>
+        
+        <category>registration</category>
+        
+        
       </item>
     
       <item>
-        <title>Young Researcher Competition</title>
-        <description>
-          
-          Young Researcher Competition (For High School Students) Welcome to the Young Researcher Competition, a unique opportunity for high school students in Indonesia to showcase their research skills and contribute to the theme of Indonesia at the Crossroad of Technology, Sustainability,...
-        </description>
-        <pubDate>Mon, 01 Jan 2024 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/competition</link>
-        <guid isPermaLink="true">http://localhost:4000/competition</guid>
+        <title>Contact</title>
+        <description>Contact information for INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/contact/</link>
+        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
+        
+        
+        
+        <category>contact</category>
+        
+        <category>email</category>
+        
+        <category>INTERSECT 2025</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Competition</title>
+        <description>Competition guidelines for Young Researchers in INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/competition/</link>
+        <guid isPermaLink="true">http://localhost:4000/competition/</guid>
+        
+        
+        
+        <category>INTERSECT 2025</category>
+        
+        <category>competition</category>
+        
+        <category>young researchers</category>
+        
+        <category>competition</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Submission</title>
+        <description>Submission guidelines for INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/submission/</link>
+        <guid isPermaLink="true">http://localhost:4000/submission/</guid>
+        
+        
+        
+        <category>INTERSECT 2025</category>
+        
+        <category>submission</category>
+        
+        <category>abstract</category>
+        
+        <category>full paper</category>
+        
+        <category>extended abstract</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>INTERSECT 2025</title>
+        <description>An annual symposium for Indonesian academics, practitioners, and policy-makers in sustainability, tech, &amp; society. This year, it will be held in Stanford University, USA on November 17-20, 2025.</description>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/</link>
+        <guid isPermaLink="true">http://localhost:4000/</guid>
+        
+        
+        
+        <category>INTERSECT 2025</category>
+        
+        <category>sustainability</category>
+        
+        <category>tech</category>
+        
+        <category>society</category>
+        
+        <category>Indonesia</category>
+        
+        <category>Stanford University</category>
+        
+        <category>USA</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Search</title>
+        <description>Search INTERSECT 2025 site</description>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/search/</link>
+        <guid isPermaLink="true">http://localhost:4000/search/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Resources</title>
+        <description>Resources for Analytics Project course at SIMT ITS, including theory, lectures, assignments, examples, and tools.</description>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/resources/</link>
+        <guid isPermaLink="true">http://localhost:4000/resources/</guid>
+        
+        
+        
+        <category>analytics project</category>
+        
+        <category>resources</category>
+        
+        <category>lectures</category>
+        
+        <category>assignments</category>
+        
+        <category>examples</category>
+        
+        <category>tools</category>
+        
+        <category>SIMT ITS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Page Not Found</title>
+        <description>404 error - page not found</description>
+        <pubDate>Wed, 29 Jan 2025 01:19:15 -0800</pubDate>
+        <link>http://localhost:4000/404.html</link>
+        <guid isPermaLink="true">http://localhost:4000/404.html</guid>
+        
       </item>
     
   </channel>

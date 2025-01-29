@@ -20,79 +20,45 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.cover-img %}has-img{% endif %}">
-{% if page.cover-img %}
-<div class="big-img intro-header">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="{{ include.type }}-heading">
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-          {% if page.subtitle %}
-            {% if include.type == "page" %}
-              <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
-            {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-          {% endif %}
+<!-- Skip link for keyboard users -->
+<!-- <a href="#main-content" class="skip-link">Skip to main content</a> -->
 
-          {% if include.type == "post" %}
-            <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
-            {% if page.last-updated %}
-              <span class="post-meta">
-                <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}
-              </span>
-            {% endif %}
-            {% if page.readtime %}
-              {% include readtime.html %}
-            {% endif %}
-          {% endif %}
-        </div>
-      </div>
+<header class="site-header" role="banner">
+    <div class="site-logo">
+        <a href="/" aria-label="Home">
+            <img src="/assets/svg/IX_2025.svg" alt="INTERSECT 2025 Icon" width="200" height="120">
+        </a>
     </div>
-  </div>
-  <span class='img-desc'></span>
-</div>
-{% endif %}
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="{{ include.type }}-heading">
-          {% if page.circle-img %}
-            <p><img class="img-circle img-200" src="{{ page.circle-img }}"/></p>
-          {% endif %}
-          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-          {% if page.subtitle %}
-            {% if include.type == "page" %}
-              <hr class="small">
-              <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
-            {% else %}
-              <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-          {% endif %}
 
-          {% if include.type == "post" %}
-            <span class="post-meta">Posted on {{ page.date | date: date_format }}</span>
-            {% if page.last-updated %}
-              <span class="post-meta">
-                <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}
-              </span>
-            {% endif %}
-            {% if page.readtime %}
-              {% include readtime.html %}
-            {% endif %}
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Toggle menu</span>
+        <svg width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+    </button>
+
+    {% include nav.html %}
 </header>
 
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="/">HOME</a></li>
+        {% assign url_parts = page.url | split: '/' %}
+        {% assign url_parts = url_parts | shift %}
+        {% assign crumb_path = '' %}
+        {% for part in url_parts %}
+            {% if part != '' %}
+                {% assign crumb_path = crumb_path | append: '/' | append: part %}
+                {% assign crumb_title = part | replace: '-', ' ' | replace: '.html', '' | replace: '.md', '' | upcase %}
+                {% if forloop.last %}
+                    <li aria-current="page">{{ crumb_title }}</li>
+                {% else %}
+                    <li><a href="{{ crumb_path }}">{{ crumb_title }}</a></li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ol>
+</nav>
 
 {% else %}
 <div class="intro-header"></div>

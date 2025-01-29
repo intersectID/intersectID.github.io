@@ -1,0 +1,11 @@
+main:
+  - title: Home
+    url: /
+  - title: Submission
+    url: /submission
+  - title: Competition
+    url: /competition
+  - title: Registration
+    url: /registration
+  - title: Contact
+    url: /contact 
