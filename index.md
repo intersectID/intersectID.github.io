@@ -73,7 +73,7 @@ hidebreadcrumbs: true
                 </svg>
             </div>
             <h3 class="speaker-name">Rachmat Kaimuddin</h3>
-            <p class="speaker-title">Commissioner of Vale Indonesia</p>
+            <p class="speaker-title">(Tentative)</p>
         </div>
         
         <div class="speaker-card">
