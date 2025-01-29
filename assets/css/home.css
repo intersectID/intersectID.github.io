@@ -5,6 +5,7 @@
     --sidebar-bg: #f8f9fa;
     --nav-bg: #2c3e50;
     --focus-outline: #4a90e2;
+    color-scheme: light !important;
 }
 
 * {
@@ -22,7 +23,7 @@
 /* High contrast mode support */
 @media (prefers-contrast: high) {
     :root {
-        --accent-color: #c02b00;
+        --accent-color: #039311;
         --text-color: #000000;
         --bg-color: #ffffff;
     }
@@ -31,18 +32,37 @@
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #1a1a1a;
-        --text-color: #ffffff;
-        --sidebar-bg: #2d2d2d;
-        --accent-color: #ff6b2b;
+        --bg-color: #ffffff !important;
+        --text-color: #333333 !important;
+        --sidebar-bg: #f8f9fa !important;
+        --accent-color: #039311 !important;
     }
     
-    body {
-        background-color: var(--bg-color);
+    body,
+    .main-content,
+    .sidebar,
+    .footer,
+    .site-header,
+    .feature-item,
+    .content-section,
+    .speaker-card,
+    .collab-card,
+    .committee-section,
+    .leader-card {
+        background-color: #ffffff !important;
+        color: #333333 !important;
     }
-
-    h1, h2, h3 {
-        color: var(--text-color);
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #333333 !important;
+    }
+    
+    .main-nav a {
+        color: #333333 !important;
+    }
+    
+    .main-nav a:hover {
+        color: #039311 !important;
     }
 }
 
@@ -1432,8 +1452,8 @@ h1, h2, h3, h4, h5, h6,
     .main-content,
     .sidebar,
     .footer {
-        background-color: #fff !important;
-        color: #333 !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
     }
     
     a {
