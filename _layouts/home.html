@@ -6,22 +6,22 @@
     <title>{{ page.title }} | {{ page.subtitle }}</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="{{ append: page.subtitle }}">
-    <meta name="author" content="{{ page.instructor | default: site.author }}">
-    <meta name="keywords" content="{{ page.keywords | default: page.title | append: ', ' | append: ', stanford, sustainability, konferensi, Indonesia, INTERSECT, INTERSECT 2025' }}">
+    <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="image" content="{{ page.og_image | default: site.default_image }}">
+    <meta name="keywords" content="{{ page.keywords | default: page.title | append: ', stanford, sustainability, konferensi, Indonesia, INTERSECT, INTERSECT 2025' }}">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{{ page.title | append: 'INTERSECT 2025' }}">
-    <meta property="og:description" content="{{ append: page.subtitle }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">    
+    <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{{ page.og_image | default: 'https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg' }}">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title | append: 'INTERSECT 2025' }}">
-    <meta name="twitter:description" content="{{ append: page.subtitle }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{{ page.og_image | default: 'https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg' }}">
-    
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     

@@ -5,8 +5,8 @@
     <description>An annual symposium for Indonesian academics, practitioners, and policy-makers in sustainability, tech, &amp; society</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2025 10:53:25 -0800</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2025 10:53:25 -0800</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2025 11:16:12 -0800</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2025 11:16:12 -0800</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
     
@@ -44,24 +44,6 @@
         <category>INTERSECT 2025</category>
         
         <category>registration</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Contact</title>
-        <description>Contact information for INTERSECT 2025</description>
-        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/contact/</link>
-        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
-        
-        
-        
-        <category>contact</category>
-        
-        <category>email</category>
-        
-        <category>INTERSECT 2025</category>
         
         
       </item>
@@ -122,9 +104,27 @@
       </item>
     
       <item>
+        <title>Contact</title>
+        <description>Contact information for INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 11:16:12 -0800</pubDate>
+        <link>http://localhost:4000/contact/</link>
+        <guid isPermaLink="true">http://localhost:4000/contact/</guid>
+        
+        
+        
+        <category>contact</category>
+        
+        <category>email</category>
+        
+        <category>INTERSECT 2025</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Page Not Found</title>
         <description>404 error - page not found</description>
-        <pubDate>Wed, 29 Jan 2025 10:53:25 -0800</pubDate>
+        <pubDate>Wed, 29 Jan 2025 11:16:12 -0800</pubDate>
         <link>http://localhost:4000/404.html</link>
         <guid isPermaLink="true">http://localhost:4000/404.html</guid>
         
