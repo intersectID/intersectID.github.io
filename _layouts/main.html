@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ page.subtitle }}</title>
+    <title>{{ page.title }} | {{ page.subtitle }} | INTERSECT 2025</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="title" content="{% if page.title %}{{ page.title }} | INTERSECT 2025{% else %}{{ site.title }}{% endif %}">
     <meta name="image" content="{{ page.og_image | default: site.default_image }}">
     <meta name="keywords" content="{{ page.keywords | default: page.title | append: ', stanford, sustainability, konferensi, Indonesia, INTERSECT, INTERSECT 2025' }}">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">    
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | INTERSECT 2025{% else %}{{ site.title }}{% endif %}">    
     <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{{ page.og_image | default: 'https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg' }}">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | INTERSECT 2025{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{{ page.og_image | default: 'https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg' }}">
     
