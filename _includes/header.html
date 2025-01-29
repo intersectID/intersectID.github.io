@@ -63,3 +63,25 @@
 {% else %}
 <div class="intro-header"></div>
 {% endif %}
+
+<style>
+.site-header {
+    background: #fff !important;
+    padding: 1rem;
+}
+
+.site-logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .site-logo {
+        text-align: center;
+    }
+    
+    .site-logo img {
+        max-height: 80px;  /* Larger on mobile */
+    }
+}
+</style>
