@@ -1,6 +1,6 @@
 :root {
     --accent-color: #039311;
-    --bg-color: #ffffff;
+    --bg-color: transparent;
     --text-color: #333333;
     --sidebar-bg: #f8f9fa;
     --nav-bg: #2c3e50;
@@ -22,7 +22,7 @@
 /* High contrast mode support */
 @media (prefers-contrast: high) {
     :root {
-        --accent-color: #c02b00;
+        --accent-color: #039311;
         --text-color: #000000;
         --bg-color: #ffffff;
     }
@@ -31,18 +31,37 @@
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #1a1a1a;
-        --text-color: #ffffff;
-        --sidebar-bg: #2d2d2d;
-        --accent-color: #ff6b2b;
+        --bg-color: transparent;
+        --text-color: #333333;
+        --sidebar-bg: #f8f9fa;
+        --accent-color: #039311;
     }
     
-    body {
-        background-color: var(--bg-color);
-    }
-
-    h1, h2, h3 {
+    body,
+    .main-content,
+    .sidebar,
+    .footer,
+    .site-header,
+    .feature-item,
+    .content-section,
+    .speaker-card,
+    .collab-card,
+    .committee-section,
+    .leader-card {
+        background-color: transparent;
         color: var(--text-color);
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #333333 !important;
+    }
+    
+    .main-nav a {
+        color: #333333 !important;
+    }
+    
+    .main-nav a:hover {
+        color: #039311 !important;
     }
 }
 
@@ -121,7 +140,6 @@ body {
     height: 2rem;
     padding: 0;
     border-radius: 50%;
-    background: var(--sidebar-bg);
 }
 
 .search-nav-item a:hover {
@@ -154,6 +172,7 @@ body {
 .sidebar {
     grid-column: 2;
     background: var(--sidebar-bg);
+    background: rgba(248, 249, 250, 0.7);
     padding: 1.5rem;
     border-radius: 8px;
     position: sticky;
@@ -907,9 +926,9 @@ h3 {
 }
 
 .feature-item {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid #e8e8e8;
-    border-left: 4px solid #039311;
+    border-left: 4px solid var(--accent-color);
     border-radius: 4px;
     padding: 1.5rem;
     transition: all 0.2s ease;
@@ -1027,7 +1046,7 @@ h3 {
 }
 
 .speaker-card {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid #e8e8e8;
     border-radius: 8px;
     padding: 1.2rem;
@@ -1103,7 +1122,7 @@ h3 {
     width: 100%;
     border-collapse: collapse;
     margin: 2rem 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: transparent;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -1182,7 +1201,7 @@ h3 {
 }
 
 .collab-card {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid #e8e8e8;
     border-radius: 8px;
     padding: 1.5rem;
@@ -1247,7 +1266,7 @@ h3 {
 }
 
 .committee-section {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid #e8e8e8;
     border-radius: 8px;
     padding: 1.5rem;
@@ -1317,7 +1336,7 @@ h3 {
 }
 
 .leader-card {
-    background: var(--card-bg);
+    background: transparent;
     border: 1px solid #e8e8e8;
     border-radius: 8px;
     padding: 1.5rem;
@@ -1348,12 +1367,12 @@ h3 {
 .sponsors-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3rem;  /* Increased gap */
+    gap: 3rem;
     margin: 2rem 0;
     align-items: center;
     justify-items: center;
-    padding: 2rem;  /* Added padding */
-    background: rgba(255, 255, 255, 0.80);  /* Light background */
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.80);
     border-radius: 12px;
 }
 
@@ -1394,4 +1413,152 @@ h3 {
 .sponsor-card:hover img {
     transform: scale(1.05);
     filter: grayscale(0%);  /* Full color on hover */
+}
+
+/* Remove these forced colors for nav elements */
+nav, 
+.site-header,
+.main-nav,
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.site-nav {
+    color: var(--text-color);
+}
+
+/* Keep the white background for sponsors section */
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+    margin: 2rem 0;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 12px;
+}
+
+/* Remove dark mode background forcing */
+@media (prefers-color-scheme: dark) {
+    body,
+    .main-content,
+    .sidebar,
+    .footer {
+        color: var(--text-color);
+    }
+    
+    /* Keep link colors */
+    a {
+        color: #039311 !important;
+    }
+    
+    a:hover {
+        color: #026b0c !important;
+    }
+}
+
+/* Make logo full width on mobile */
+@media screen and (max-width: 768px) {
+    .site-logo {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 1rem 0;
+    }
+    
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-nav {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Theme toggle styles */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 36px;
+    height: 36px;
+}
+
+#theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+#theme-toggle .moon-icon {
+    display: none;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --sidebar-bg: #2d2d2d;
+    --accent-color: #4CAF50;
+}
+
+[data-theme="dark"] #theme-toggle .sun-icon {
+    display: none;
+}
+
+[data-theme="dark"] #theme-toggle .moon-icon {
+    display: block;
+}
+
+[data-theme="dark"] a {
+    color: var(--accent-color);
+}
+
+[data-theme="dark"] .timeline-table tr:nth-child(even),
+[data-theme="dark"] .fee-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .timeline-table tr:hover,
+[data-theme="dark"] .fee-table tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .sidebar {
+    background: rgba(45, 45, 45, 0.7);
+}
+
+/* Keep sponsors section white in dark mode */
+[data-theme="dark"] .sponsors-grid {
+    background: rgba(255, 255, 255, 0.80);
+}
+
+/* Ensure text is visible in dark mode */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] li {
+    color: var(--text-color);
 }

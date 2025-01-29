@@ -43,12 +43,12 @@
     {% endif %}
 
     <style>
-        /* Disable dark mode globally */
+        /* Remove color-scheme forcing */
         :root {
-            color-scheme: light;
+            color-scheme: auto;
         }
         
-        /* Improve table responsiveness for all tables */
+        /* Improve table responsiveness without forcing background */
         @media screen and (max-width: 768px) {
             .table-wrapper {
                 overflow-x: auto;

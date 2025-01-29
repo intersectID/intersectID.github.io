@@ -10,9 +10,9 @@ date: 2025-01-29
 ---
 
 <style>
-/* Disable dark mode */
+/* Remove color scheme forcing */
 :root {
-    color-scheme: light;
+    color-scheme: auto;
 }
 
 /* Base table styles */
@@ -20,8 +20,7 @@ date: 2025-01-29
     width: 100%;
     border-collapse: collapse;
     margin: 2rem 0;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
+    background: transparent;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
@@ -125,7 +124,7 @@ date: 2025-01-29
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.9);
+    background: transparent;
     border-radius: 8px;
     transition: all 0.3s ease;
 }
@@ -158,7 +157,7 @@ date: 2025-01-29
     padding: 1rem;
     max-height: 500px;
     opacity: 1;
-    background: rgba(255, 255, 255, 0.7);
+    background: transparent;
     margin: 0.5rem 0;
     border-radius: 8px;
 }
@@ -177,7 +176,7 @@ h2 {
 }
 
 .registration-steps {
-    background: rgba(255, 255, 255, 0);
+    background: transparent;
     padding: 1.5rem;
     border-radius: 8px;
     margin: 2rem 0;
@@ -194,10 +193,15 @@ h2 {
 }
 
 .contact-info {
-    background: rgba(248, 249, 250, 0);
+    background: transparent;
     padding: 1rem 1.5rem;
     border-radius: 8px;
     margin: 1rem 0;
+}
+
+/* Update timeline table */
+.timeline-table {
+    background: transparent;
 }
 </style>
 

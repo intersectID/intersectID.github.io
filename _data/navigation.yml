@@ -1,11 +1,11 @@
 main:
-  - title: Home
-    url: /
-  - title: Submission
-    url: /submission
-  - title: Competition
-    url: /competition
-  - title: Registration
-    url: /registration
-  - title: Contact
-    url: /contact 
+  - title: "Home"
+    url: "/"
+  - title: "Registration"
+    url: "/registration"
+  - title: "Submission"
+    url: "/submission"
+  - title: "Competition"
+    url: "/competition"
+  - title: "Contact"
+    url: "/contact" 
