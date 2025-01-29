@@ -365,14 +365,19 @@ hidebreadcrumbs: true
                 <span class="committee-affiliation">Purdue University</span>
             </li>
             <li class="committee-item">
-                <span class="committee-role">Sponsor Relations Chair</span>
+                <span class="committee-role">Sponsor Relations Co-Chair</span>
                 <span class="committee-name">Faizal Lihawa</span>
                 <span class="committee-affiliation">Columbia University</span>
             </li>
             <li class="committee-item">
+                <span class="committee-role">Sponsor Relations Co-Chair</span>
+                <span class="committee-name">Yusril Ikhtiar Muhammad</span>
+                <span class="committee-affiliation">Islamic University of Indonesia</span>
+            </li>
+            <li class="committee-item">
                 <span class="committee-role">General Affairs Chair</span>
                 <span class="committee-name">Azmul Asmar Irfan</span>
-                <span class="committee-affiliation">UIN Sultan Hasanuddin</span>
+                <span class="committee-affiliation">UIN Syarif Hidayatullah Jakarta</span>
             </li>
         </ul>
     </div>
@@ -397,12 +402,20 @@ hidebreadcrumbs: true
                 <span class="committee-affiliation">Michigan State University</span>
             </li>
             <li class="committee-item">
+                <span class="committee-name">Yusril Ikhtiar Muhammad</span>
+                <span class="committee-affiliation">Islamic University of Indonesia</span>
+            </li>
+            <li class="committee-item">
                 <span class="committee-name">Nefriana</span>
                 <span class="committee-affiliation">University of Pittsburgh</span>
             </li>
             <li class="committee-item">
                 <span class="committee-name">Hilyatun Nuha</span>
                 <span class="committee-affiliation">ITS Surabaya</span>
+            </li>
+            <li class="committee-item">
+                <span class="committee-name">Zulkifli Palinrungi</span>
+                <span class="committee-affiliation">Carnegie Mellon University</span>
             </li>
             <li class="committee-item">
                 <span class="committee-name">Syarifuddin Mabe Parenreng</span>
@@ -423,6 +436,10 @@ hidebreadcrumbs: true
             <li class="committee-item">
                 <span class="committee-name">Nur Ahmad Wahid</span>
                 <span class="committee-affiliation">Pusan National University</span>
+            </li>
+            <li class="committee-item">
+                <span class="committee-name">Troy Agung Wibowo</span>
+                <span class="committee-affiliation">North Carolina State University</span>
             </li>
             <li class="committee-item">
                 <span class="committee-name">Bayu Aryo Yudanta</span>
