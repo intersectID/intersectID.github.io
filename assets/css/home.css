@@ -1135,13 +1135,22 @@ h3 {
 }
 
 .timeline-table th {
-    background: rgba(3, 147, 17, 0.9);  /* #039311 with 0.9 opacity */
+    background: rgba(3, 147, 17, 0.9);
     color: white;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.5px;
-    white-space: nowrap;
+    white-space: normal;
+}
+
+.timeline-table th .date-range {
+    display: block;
+    text-transform: none;
+    font-size: 0.8rem;
+    opacity: 1;
+    margin-top: 0.25rem;
+    color: white;
 }
 
 .timeline-table tr:nth-child(even) {
@@ -1223,7 +1232,7 @@ h3 {
         text-align: center;  /* Center the label */
         font-weight: 600;
         color: #039311;
-        margin-bottom: 0.5rem;  /* Add space between label and content */
+        margin-bottom: 0.75rem;
     }
     
     /* Ensure date ranges are centered */
@@ -1241,6 +1250,11 @@ h3 {
     /* Keep child rows consistent */
     .timeline-table tr.child-row td {
         text-align: center;
+    }
+    
+    /* Hide header dates in mobile since they're in the data-label */
+    .timeline-table thead .date-range {
+        display: none;
     }
 }
 

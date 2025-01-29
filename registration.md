@@ -213,48 +213,31 @@ We have two types of registration fees: conference registration and executive wo
 
 Conference registration fees are for the conference only (main event at November 20, 2025), full day. It does not include the workshop.
 
+<!-- Conference Registration Table -->
 <div class="table-container">
-    <table class="fee-table">
+    <table class="timeline-table">
         <thead>
             <tr>
                 <th>Category</th>
-                <th>Early Bird</th>
-                <th>Regular</th>
+                <th>Early Bird<span class="date-range">Jul 1 - Aug 31, 2025</span></th>
+                <th>Regular<span class="date-range">Sep 1 - Oct 31, 2025</span></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="fee-category">Student</td>
-                <td>
-                    $50
-                    <span class="fee-period">Jul 1 - Aug 31, 2025</span>
-                </td>
-                <td>
-                    $100
-                    <span class="fee-period">Sep 1 - Oct 31, 2025</span>
-                </td>
+                <td data-label="Category">Student</td>
+                <td data-label="Early Bird (Jul 1 - Aug 31)">$50</td>
+                <td data-label="Regular (Sep 1 - Oct 31)">$100</td>
             </tr>
             <tr>
-                <td class="fee-category">Professional</td>
-                <td>
-                    $200
-                    <span class="fee-period">Jul 1 - Aug 31, 2025</span>
-                </td>
-                <td>
-                    $300
-                    <span class="fee-period">Sep 1 - Oct 31, 2025</span>
-                </td>
+                <td data-label="Category">Professional</td>
+                <td data-label="Early Bird (Jul 1 - Aug 31)">$200</td>
+                <td data-label="Regular (Sep 1 - Oct 31)">$300</td>
             </tr>
             <tr>
-                <td class="fee-category">Remote Listener</td>
-                <td>
-                    $25
-                    <span class="fee-period">Jul 1 - Aug 31, 2025</span>
-                </td>
-                <td>
-                    $50
-                    <span class="fee-period">Sep 1 - Oct 31, 2025</span>
-                </td>
+                <td data-label="Category">Remote Listener</td>
+                <td data-label="Early Bird (Jul 1 - Aug 31)">$25</td>
+                <td data-label="Regular (Sep 1 - Oct 31)">$50</td>
             </tr>
         </tbody>
     </table>
@@ -267,45 +250,27 @@ Each conference registration covers both the attendance and the publication fee,
 Executive workshop registration fees are for the workshop only (3-day workshop at November 17-19, 2025). It does not include the conference. 
 
 <div class="table-container">
-    <table class="fee-table">
+    <table class="timeline-table">
         <thead>
             <tr>
                 <th>Category</th>
-                <th>Early Bird</th>
-                <th>Regular</th>
-                <th>Last-minute</th>
+                <th>Early Bird<span class="date-range">Mar 1 - Jun 30, 2025</span></th>
+                <th>Regular<span class="date-range">Jul 1 - Oct 31, 2025</span></th>
+                <th>Last-minute<span class="date-range">Nov 1 - 18, 2025</span></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="fee-category">Standard</td>
-                <td>
-                    $2,000
-                    <span class="fee-period">Mar 1 - Jun 30, 2025</span>
-                </td>
-                <td>
-                    $3,000
-                    <span class="fee-period">Jul 1 - Oct 31, 2025</span>
-                </td>
-                <td>
-                    $4,000
-                    <span class="fee-period">Nov 1 - 18, 2025</span>
-                </td>
+                <td data-label="Category">Standard</td>
+                <td data-label="Early Bird (Mar 1 - Jun 30)">$2,000</td>
+                <td data-label="Regular (Jul 1 - Oct 31)">$3,000</td>
+                <td data-label="Last-minute (Nov 1 - 18)">$4,000</td>
             </tr>
             <tr>
-                <td class="fee-category">Sponsor (Additional Person)</td>
-                <td>
-                    $1,500
-                    <span class="fee-period">Mar 1 - Jun 30, 2025</span>
-                </td>
-                <td>
-                    $2,000
-                    <span class="fee-period">Jul 1 - Oct 31, 2025</span>
-                </td>
-                <td>
-                    $3,000
-                    <span class="fee-period">Nov 1 - 18, 2025</span>
-                </td>
+                <td data-label="Category">Sponsor (Additional Person)</td>
+                <td data-label="Early Bird (Mar 1 - Jun 30)">$1,500</td>
+                <td data-label="Regular (Jul 1 - Oct 31)">$2,000</td>
+                <td data-label="Last-minute (Nov 1 - 18)">$3,000</td>
             </tr>
         </tbody>
     </table>
