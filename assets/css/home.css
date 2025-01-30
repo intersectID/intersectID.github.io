@@ -3,6 +3,7 @@
 
 /* Root variables */
 :root {
+    color-scheme: auto;
     --accent-color: #039311;
     --bg-color: transparent;
     --text-color: #333333;
@@ -2520,4 +2521,194 @@ h1, h2, h3, h4, h5, h6,
 
 .contact-item p a:hover {
   text-decoration: underline;
+}
+
+
+/* Base table styles */
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: transparent;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Table wrapper for horizontal scroll */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 2rem 0;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .table-container {
+        margin: 2rem -1rem;  /* Negative margin to allow full-width scroll */
+        padding: 0 1rem;
+        width: calc(100% + 2rem);
+    }
+    
+    .fee-table {
+        margin: 0;  /* Remove table margin inside container */
+        min-width: 600px;  /* Ensure minimum width for content */
+    }
+    
+    .fee-table th,
+    .fee-table td {
+        min-width: 120px;  /* Minimum column width */
+    }
+    
+    .fee-period,
+    .deadline {
+        white-space: nowrap;  /* Prevent date wrapping */
+    }
+}
+
+.fee-table th,
+.fee-table td {
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.fee-table th {
+    background: #039311;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.fee-table tr:nth-child(even) {
+    background: rgba(248, 249, 250, 0.9);
+}
+
+.fee-table tr:hover {
+    background: rgba(241, 243, 245, 0.95);
+}
+
+.fee-category {
+    font-weight: 600;
+    color: #039311;
+}
+
+.fee-note {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.fee-period {
+    display: block;
+    color: #039311;
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+
+.deadline {
+    color: #666;
+    font-size: 0.85rem;
+    display: block;
+}
+
+.faq-section {
+    margin: 2rem 0;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    font-weight: 600;
+    color: #333;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+    background: rgba(248, 249, 250, 0.9);
+}
+
+.faq-question::after {
+    content: '+';
+    font-size: 1.2rem;
+    color: #039311;
+}
+
+.faq-question.active::after {
+    content: '−';
+}
+
+.faq-answer {
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    opacity: 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+.faq-answer.active {
+    padding: 1rem;
+    max-height: 500px;
+    opacity: 1;
+    background: transparent;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+}
+
+/* General Typography Improvements */
+h1, h2 {
+    color: #333;
+    margin: 2rem 0 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #039311;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.registration-steps {
+    background: transparent;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.registration-steps ol {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.registration-steps li {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background: transparent;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Update timeline table */
+.timeline-table {
+    background: transparent;
 }

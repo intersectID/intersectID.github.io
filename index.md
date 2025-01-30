@@ -11,8 +11,9 @@ date: 2025-01-28
 hidebreadcrumbs: true
 ---
 
+# INTERSECT 2025
+
 <div class="page-header">
-    <h1>INTERSECT 2025</h1>
     <p style="margin-top: -1rem !important;">17-20 November 2025, Stanford University, USA</p>
     <h3>Building Sustainable Energy Future Through Tech Innovation and Collaboration</h3>
     <p class="lead" style="margin-top: 1rem;"> <strong>INTERSECT 2025</strong> will convene global leaders, researchers, and practitioners at the intersection of sustainable energy, technology, and policy. This year's event hosts an academic conference and executive workshops addressing critical challenges in Indonesia's energy sector. The main event will be held on <strong>20 November 2025 in Stanford University, USA</strong>, the heart of Silicon Valley, which offers a unique opportunity to engage with Indonesia's energy transition leaders in substantive discussions. The location is particularly fitting, as California's transformative green energy initiatives have set new global standards and Indonesia is set to become a global leader in renewable energy.</p>
