@@ -989,7 +989,7 @@ h3 {
     height: 400px;
     bottom: 0;
     background-image: url('/assets/svg/hoover.svg');
-    opacity: 0.08;
+    opacity: 0.15;
 }
 
 .footer-decoration::after {
@@ -998,7 +998,7 @@ h3 {
     height: 320px;
     bottom: 0;
     background-image: url('/assets/svg/memorial.svg');
-    opacity: 0.05;
+    opacity: 0.10;
 }
 
 .footer-decoration .birds {
@@ -1007,7 +1007,7 @@ h3 {
     width: 15%;
     height: 200px;
     background-image: url('/assets/svg/birds.svg');
-    opacity: 0.10;
+    opacity: 0.15;
     transform: rotate(-5deg);
 }
 
@@ -1722,4 +1722,453 @@ h1, h2, h3, h4, h5, h6,
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+/* Enhanced Program Page Styles */
+.program-section {
+    margin-bottom: 4rem;
+    position: relative;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Main headings */
+.program-section h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Section headings with accent */
+.program-section h2 {
+    font-size: 2rem;
+    color: #039311;
+    margin: 3rem 0 1.5rem;
+    padding: 1rem 1.5rem;
+    background: rgba(3, 147, 17, 0.05);
+    border-radius: 8px;
+    border-left: 5px solid #039311;
+}
+
+/* Time slots and main list items */
+.program-section > ul > li {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #333;
+    margin: 2rem 0 1rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.program-section > ul > li::before {
+    content: "→";
+    color: #039311;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Time slots styling */
+.program-section > ul > li:first-child {
+    color: #039311;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background: rgba(3, 147, 17, 0.05);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.program-section > ul > li:first-child::before {
+    content: "🕒";
+    position: static;
+    margin-right: 0.5rem;
+}
+
+/* Nested lists */
+.program-section > ul > ul {
+    margin: 1rem 0 1.5rem 2.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid rgba(3, 147, 17, 0.2);
+}
+
+.program-section ul ul li {
+    font-size: 1.05rem;
+    font-weight: normal;
+    color: #444;
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.program-section ul ul li::before {
+    content: "•";
+    color: #039311;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+.program-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+}
+
+/* Workshop sections */
+.program-section p strong {
+    color: #039311;
+    font-weight: 600;
+}
+
+/* Side Events section */
+.program-section ul:last-of-type {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .program-section {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .program-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    .program-section h2 {
+        font-size: 1.6rem;
+        padding: 0.75rem 1rem;
+    }
+    
+    .program-section > ul > li {
+        font-size: 1.1rem;
+        padding-left: 1.5rem;
+    }
+    
+    .program-section ul ul li {
+        font-size: 1rem;
+    }
+    
+    .program-section p {
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+/* Timeline styles */
+
+.timeline-workshop {
+    margin-top: 15px;
+}
+
+.timeline::before {
+  /* content: ''; */
+  position: absolute;
+  left: 30px;  /* Moved closer to edge */
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: rgba(3, 147, 17, 0.2);
+}
+
+/* Time period headers */
+.timeline > h3,
+.timeline > h4,
+.timeline > .time-period {
+  color: #039311; /* Brand green */
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1.5rem 70px;
+  padding: 0.5rem 1rem;
+  background: transparent; /* Changed from rgba(3, 147, 17, 0.05) to transparent */
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 15px;
+  /* margin-left: 50px;  Reduced margin */
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Time styles - now inside content */
+.timeline-item .time {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: #039311;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  border-radius: 3px 8px 8px 3px;
+  text-align: center;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.timeline-item .content {
+  padding: 20px 20px 20px 60px;
+  background: transparent; /* Changed from white to transparent */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(3, 147, 17, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+/* Dot indicator adjustments */
+.timeline-item::before {
+  /* content: ''; */
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #039311;
+  border: 3px solid transparent; /* Changed from white to transparent */
+  box-shadow: 0 0 0 3px rgba(3, 147, 17, 0.2);
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+/* Hover effects */
+.timeline-item .content:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:hover::before {
+  background: #027b0e;
+  transform: scale(1.2);
+}
+
+.timeline-item h4 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.timeline-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline-item li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.timeline-item li::before {
+  content: "•";
+  color: #039311; /* Brand green */
+  position: absolute;
+  left: 0;
+  top: -4px;
+  font-weight: bold;
+}
+
+.timeline .panel {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: transparent; /* Changed from rgba(3, 147, 17, 0.03) to transparent */
+  border-radius: 6px;
+}
+
+.timeline .panel h5 {
+  color: #039311; /* Brand green */
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Timeline period indicators with emojis */
+.timeline .time-period {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.3rem;
+  color: #039311;
+  margin: 2.5rem 0 1.5rem 70px;
+  padding: 0.75rem 1.25rem;
+  background: transparent; /* Changed from rgba(3, 147, 17, 0.05) to transparent */
+  border-radius: 8px;
+  border-left: 4px solid #039311;
+}
+
+/* Emoji styles */
+.timeline .time-period::before {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Morning indicator */
+.timeline .time-period[data-period="morning"]::before {
+  content: "🌅";
+}
+
+/* Midday indicator */
+.timeline .time-period[data-period="midday"]::before {
+  content: "🌞";
+}
+
+/* Afternoon indicator */
+.timeline .time-period[data-period="afternoon"]::before {
+  content: "🌤️";
+}
+
+/* Evening indicator */
+.timeline .time-period[data-period="evening"]::before {
+  content: "🌅";
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-item {
+    margin-left: 40px;
+  }
+  
+  .timeline-item::before {
+    left: -25px;
+  }
+  
+  .timeline-item .content {
+    padding: 15px 15px 15px 50px;
+  }
+  
+  .timeline-item .time {
+    width: 40px;
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Timeline list styles */
+.timeline-item li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.timeline-item li::before {
+  content: "•";
+  color: #039311;
+  position: absolute;
+  left: 0;
+  top: -4px;
+  font-weight: bold;
+}
+
+/* Sub-item styles */
+.timeline-item li.sub-item {
+  margin-left: 20px;
+  padding-left: 15px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.timeline-item li.sub-item::before {
+  content: "◦";
+  color: #039311;
+  opacity: 0.8;
+  font-size: 0.95em;
+  top: -2px;
+}
+
+/* Nested list styles */
+.timeline-item ul ul {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  /* border-left: 2px solid rgba(3, 147, 17, 0.1); */
+  margin-left: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline-item li.sub-item {
+    margin-left: 15px;
+    padding-left: 12px;
+  }
+}
+
+/* Workshop timeline modifications */
+.timeline-item .time[data-day] {
+  background: #027b0e;  /* Slightly darker green for workshop days */
+}
+
+/* Workshop timeline content */
+.timeline-item .content p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Workshop schedule specific styles */
+.timeline-item .content h5 {
+  display: inline-block;
+  color: #039311;
+  margin: 0;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.timeline-item .content h5 + * {
+  display: inline-block;
+  color: #666;
+}
+
+/* Spacing between workshop sections */
+.timeline + h3 {
+  margin-top: 3rem;
+}
+
+/* Workshop pre-requirements note */
+.timeline + em {
+  display: block;
+  margin-top: 1.5rem;
+  color: #666;
+  font-style: italic;
+  font-size: 0.9rem;
 }
