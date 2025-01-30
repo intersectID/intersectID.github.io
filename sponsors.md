@@ -6,7 +6,7 @@ description: "Call for Sponsors for INTERSECT 2025"
 keywords: "sponsors, INTERSECT 2025"
 toc: false
 auto_toc: false
-og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
+og_image: "https://intersect.id/assets/img/call_for_sponsor.png"
 ---
 
 # Call for Sponsors
