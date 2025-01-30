@@ -17,6 +17,13 @@ og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
     <li>Sponsorship: <strong>sponsor@intersect.id</strong></li>    
 </ul>
 
+
+## Sponsors Prospect
+
+Want to sponsor INTERSECT 2025? Visit our [sponsors page](/sponsors)!
+
+
+
 ## Supported By
 <div class="sponsors-grid">
     <div class="sponsor-card sponsor-card-large">

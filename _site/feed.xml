@@ -5,8 +5,8 @@
     <description>An annual symposium for Indonesian academics, practitioners, and policy-makers in sustainability, tech, &amp; society</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2025 16:24:49 -0800</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2025 16:24:49 -0800</lastBuildDate>
+    <pubDate>Wed, 29 Jan 2025 17:29:20 -0800</pubDate>
+    <lastBuildDate>Wed, 29 Jan 2025 17:29:20 -0800</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
     
@@ -104,9 +104,25 @@
       </item>
     
       <item>
+        <title>Call for Sponsors</title>
+        <description>Call for Sponsors for INTERSECT 2025</description>
+        <pubDate>Wed, 29 Jan 2025 17:29:20 -0800</pubDate>
+        <link>http://localhost:4000/sponsors/</link>
+        <guid isPermaLink="true">http://localhost:4000/sponsors/</guid>
+        
+        
+        
+        <category>sponsors</category>
+        
+        <category>INTERSECT 2025</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Programs</title>
         <description>Programs Highlight for INTERSECT 2025</description>
-        <pubDate>Wed, 29 Jan 2025 16:24:49 -0800</pubDate>
+        <pubDate>Wed, 29 Jan 2025 17:29:20 -0800</pubDate>
         <link>http://localhost:4000/programs/</link>
         <guid isPermaLink="true">http://localhost:4000/programs/</guid>
         
@@ -122,7 +138,7 @@
       <item>
         <title>Contact</title>
         <description>Contact information for INTERSECT 2025</description>
-        <pubDate>Wed, 29 Jan 2025 16:24:49 -0800</pubDate>
+        <pubDate>Wed, 29 Jan 2025 17:29:20 -0800</pubDate>
         <link>http://localhost:4000/contact/</link>
         <guid isPermaLink="true">http://localhost:4000/contact/</guid>
         
@@ -140,7 +156,7 @@
       <item>
         <title>Page Not Found</title>
         <description>404 error - page not found</description>
-        <pubDate>Wed, 29 Jan 2025 16:24:49 -0800</pubDate>
+        <pubDate>Wed, 29 Jan 2025 17:29:20 -0800</pubDate>
         <link>http://localhost:4000/404.html</link>
         <guid isPermaLink="true">http://localhost:4000/404.html</guid>
         

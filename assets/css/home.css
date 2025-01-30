@@ -2172,3 +2172,352 @@ h1, h2, h3, h4, h5, h6,
   font-style: italic;
   font-size: 0.9rem;
 }
+
+/* Sponsor page styles */
+.sponsor-intro {
+  margin: 2rem 0;
+}
+
+/* New sponsor value grid */
+.sponsor-value-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Changed to 3 columns */
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.value-card {
+  padding: 1.5rem;
+  background: rgba(3, 147, 17, 0.02);
+  border: 1px solid rgba(3, 147, 17, 0.1);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(3, 147, 17, 0.1);
+  background: rgba(3, 147, 17, 0.03);
+}
+
+.value-card h3 {
+  color: #039311;
+  margin: 0 0 0.75rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.value-card h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #039311;
+  border-radius: 2px;
+}
+
+.value-card p {
+  margin: 0;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .sponsor-value-grid {
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsor-value-grid {
+    grid-template-columns: 1fr;  /* Single column on mobile */
+    gap: 1rem;
+  }
+  
+  .value-card {
+    padding: 1.25rem;
+  }
+  
+  .value-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .value-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Sponsor table styles */
+.sponsor-table {
+  margin: 2rem 0;
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sponsor-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: transparent;
+}
+
+.sponsor-table th,
+.sponsor-table td {
+  padding: 1rem;
+  text-align: center;
+  border: none;
+  border-right: 1px solid rgba(3, 147, 17, 0.1);
+}
+
+/* Header styling */
+.sponsor-table th:first-child {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: transparent;
+}
+
+/* Double border under header */
+.sponsor-table thead tr {
+  border-bottom: 2px solid rgba(3, 147, 17, 0.1);
+  position: relative;
+}
+
+.sponsor-table thead tr::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: rgba(3, 147, 17, 0.1);
+}
+
+/* Content cells */
+.sponsor-table td:first-child {
+  text-align: left;
+  background: transparent;
+}
+
+/* Tier headers with different colors */
+.tier-header {
+  padding: 0.75rem;
+  color: white;
+  border-radius: 4px;
+}
+
+.tier-header.founding {
+  background: linear-gradient(135deg, #d4af37 0%, #c5a028 100%);
+  box-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+}
+
+.tier-header.platinum {
+  background: #039311;
+}
+
+.tier-header.gold {
+  background: #2fb344;
+}
+
+.tier-header.silver {
+  background: #60c273;
+}
+
+/* Add a subtle shine effect to founding tier */
+.tier-header.founding h3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.tier-header.founding h3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  20% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.tier-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.tier-header .price {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 0.25rem;
+}
+
+/* Benefit details */
+.benefit-name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.benefit-note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+  font-weight: normal;
+}
+
+.tier-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Checkmarks and values */
+.sponsor-table td:not(:first-child) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sponsor-table td:not(:first-child):not(:empty) {
+  color: #039311;  /* Green for checkmarks and numbers */
+}
+
+/* Red X for non-included benefits */
+.sponsor-table td .no-benefit {
+  color: #dc3545;  /* Bootstrap-style red */
+  opacity: 0.7;
+  font-size: 1.4rem;  /* Increased from 1.2rem */
+  font-weight: 500;   /* Slightly lighter than checkmarks */
+  display: inline-block;
+  transform: scale(1.2);  /* Make it slightly bigger */
+  position: relative;
+  top: 1px;  /* Slight vertical adjustment */
+}
+
+/* Notes section */
+.sponsor-notes {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.sponsor-notes p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+/* Hover effects */
+.sponsor-table tbody tr:hover {
+  background: rgba(3, 147, 17, 0.02);
+}
+
+/* Responsive table adjustments */
+@media (max-width: 768px) {
+  .sponsor-table {
+    margin: 1rem -1rem;
+    font-size: 0.9rem;
+  }
+  
+  .sponsor-table th,
+  .sponsor-table td {
+    padding: 0.75rem;
+  }
+  
+  .benefit-note {
+    font-size: 0.8rem;
+  }
+  
+  .tier-note {
+    font-size: 0.75rem;
+  }
+  
+  .sponsor-table td .no-benefit {
+    font-size: 1.3rem;
+    transform: scale(1.1);
+  }
+}
+
+/* CTA section */
+.sponsor-cta {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin: 2rem 0;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.contact-item {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.contact-item h4 {
+  color: #039311;
+  margin: 0 0 1rem;
+}
+
+.contact-item p {
+  margin: 0.75rem 0;
+}
+
+.contact-item p i {
+  color: white;  /* Changed to white */
+  width: 20px;
+  margin-right: 8px;
+  background: #039311;  /* Green circle background */
+  border-radius: 50%;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;  /* Slightly smaller icon */
+}
+
+.contact-item p a {
+  color: #039311;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.contact-item p a:hover {
+  text-decoration: underline;
+}
