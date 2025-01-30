@@ -10,6 +10,10 @@ date: 2025-01-29
 og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 ---
 
+# Submission Guidelines
+
+The submission system will be available in March 2025. Meanwhile, review the guidelines below to prepare your submission.
+
 ## Template
 
 Please use this [template](/assets/templates/INTERSECT_LaTeX_template.pdf){:target="_blank"} for your submission. The editable file is available below:

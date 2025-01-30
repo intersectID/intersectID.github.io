@@ -10,8 +10,12 @@ og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 ---
 
 
-## Contact Us
-<p>For more information or to get involved, please contact us at:</p>
+# Contact Us
+
+Our committee is always ready to help you with any questions or concerns you may have. Feel free to contact us at via email or our social media.
+
+## Email
+
 <ul>
     <li>General: <strong>intersect.indonesia@gmail.com</strong></li>
     <li>Sponsorship: <strong>sponsor@intersect.id</strong></li>    
