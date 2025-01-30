@@ -51,120 +51,330 @@ By sponsoring INTERSECT 2025, you directly:
 
 We offer a unique opportunity at various levels for companies and organizations to showcase their expertise and support the development of Indonesia's energy transition.
 
-<div class="sponsor-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Benefits*</th>
-        <th>
-          <div class="tier-header founding">
-            <h3>Founding</h3>
-            <span class="price">$20k-$30k</span>
-          </div>
-        </th>
-        <th>
-          <div class="tier-header platinum">
-            <h3>Platinum</h3>
-            <span class="price">$10k-$20k</span>
-          </div>
-        </th>
-        <th>
-          <div class="tier-header gold">
-            <h3>Gold</h3>
-            <span class="price">$5k-$10k</span>
-          </div>
-        </th>
-        <th>
-          <div class="tier-header silver">
-            <h3>Silver</h3>
-            <span class="price">$1k-$5k</span>
-          </div>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <div class="benefit-name">Keynote Speaking Slot</div>
-          <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
-        </td>
-        <td>✓</td>
-        <td><span class="no-benefit">×</span></td>
-        <td><span class="no-benefit">×</span></td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">VIP Networking Dinner</div>
-          <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
-        </td>
-        <td>✓</td>
-        <td>✓</td>
-        <td><span class="no-benefit">×</span></td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Panel Participation</div>
-          <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
-        </td>
-        <td>✓</td>
-        <td>✓</td>
-        <td><span class="no-benefit">×</span></td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Premium Branding</div>
-          <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
-        </td>
-        <td>✓<div class="tier-note">Premium position</div></td>
-        <td>✓<div class="tier-note">Featured position</div></td>
-        <td>✓<div class="tier-note">Standard position</div></td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Conference Passes</div>
-          <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
-        </td>
-        <td>3 passes<div class="tier-note">$9,900 value</div></td>
-        <td>2 passes<div class="tier-note">$6,600 value</div></td>
-        <td>1 pass<div class="tier-note">$3,300 value</div></td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Workshop Discount</div>
-          <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
-        </td>
-        <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td><span class="no-benefit">×</span></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Logo on Main Stage</div>
-          <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
-        </td>
-        <td>✓<div class="tier-note">Large size</div></td>
-        <td>✓<div class="tier-note">Medium size</div></td>
-        <td>✓<div class="tier-note">Standard size</div></td>
-        <td>✓<div class="tier-note">Standard size</div></td>
-      </tr>
-      <tr>
-        <td>
-          <div class="benefit-name">Social Media Recognition</div>
-          <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
-        </td>
-        <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td>✓</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="sponsor-mobile">
+  <div class="sponsor-tier founding">
+    <div class="tier-header">
+      <h3>Founding</h3>
+      <span class="price">$20k-$30k</span>
+    </div>
+    <div class="benefits">
+      <div class="benefit-item">
+        <div class="benefit-name">Keynote Speaking Slot</div>
+        <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">VIP Networking Dinner</div>
+        <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Panel Participation</div>
+        <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Premium Branding</div>
+        <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Conference Passes</div>
+        <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
+        <div class="benefit-passes">
+          <span class="pass-count">3 passes</span>
+          <span class="pass-value">$9,900 value</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Workshop Discount</div>
+        <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Logo on Main Stage</div>
+        <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Social Media Recognition</div>
+        <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sponsor-tier platinum">
+    <div class="tier-header">
+      <h3>Platinum</h3>
+      <span class="price">$10k-$20k</span>
+    </div>
+    <div class="benefits">
+      <div class="benefit-item">
+        <div class="benefit-name">Keynote Speaking Slot</div>
+        <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">VIP Networking Dinner</div>
+        <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Panel Participation</div>
+        <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Premium Branding</div>
+        <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Conference Passes</div>
+        <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
+        <div class="benefit-passes">
+          <span class="pass-count">2 passes</span>
+          <span class="pass-value">$6,600 value</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Workshop Discount</div>
+        <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Logo on Main Stage</div>
+        <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Social Media Recognition</div>
+        <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sponsor-tier gold">
+    <div class="tier-header">
+      <h3>Gold</h3>
+      <span class="price">$5k-$10k</span>
+    </div>
+    <div class="benefits">
+      <div class="benefit-item">
+        <div class="benefit-name">Keynote Speaking Slot</div>
+        <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">VIP Networking Dinner</div>
+        <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Panel Participation</div>
+        <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Premium Branding</div>
+        <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Conference Passes</div>
+        <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
+        <div class="benefit-passes">
+          <span class="pass-count">1 pass</span>
+          <span class="pass-value">$3,300 value</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Workshop Discount</div>
+        <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Logo on Main Stage</div>
+        <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Social Media Recognition</div>
+        <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sponsor-tier silver">
+    <div class="tier-header">
+      <h3>Silver</h3>
+      <span class="price">$1k-$5k</span>
+    </div>
+    <div class="benefits">
+      <div class="benefit-item">
+        <div class="benefit-name">Keynote Speaking Slot</div>
+        <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">VIP Networking Dinner</div>
+        <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Panel Participation</div>
+        <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Premium Branding</div>
+        <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Conference Passes</div>
+        <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Workshop Discount</div>
+        <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
+        <div class="no-benefit">×</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Logo on Main Stage</div>
+        <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-name">Social Media Recognition</div>
+        <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
+        <div class="benefit-check">✓</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Keep the original table for desktop view -->
+<div class="sponsor-desktop">
+  <div class="sponsor-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Benefits*</th>
+          <th>
+            <div class="tier-header founding">
+              <h3>Founding</h3>
+              <span class="price">$20k-$30k</span>
+            </div>
+          </th>
+          <th>
+            <div class="tier-header platinum">
+              <h3>Platinum</h3>
+              <span class="price">$10k-$20k</span>
+            </div>
+          </th>
+          <th>
+            <div class="tier-header gold">
+              <h3>Gold</h3>
+              <span class="price">$5k-$10k</span>
+            </div>
+          </th>
+          <th>
+            <div class="tier-header silver">
+              <h3>Silver</h3>
+              <span class="price">$1k-$5k</span>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="benefit-name">Keynote Speaking Slot</div>
+            <div class="benefit-note">Reserved for CEO/C-level executives. 30-minute speaking slot during main conference.</div>
+          </td>
+          <td>✓</td>
+          <td><span class="no-benefit">×</span></td>
+          <td><span class="no-benefit">×</span></td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">VIP Networking Dinner</div>
+            <div class="benefit-note">Exclusive dinner with academic leaders and keynote speakers (2 representatives).</div>
+          </td>
+          <td>✓</td>
+          <td>✓</td>
+          <td><span class="no-benefit">×</span></td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Panel Participation</div>
+            <div class="benefit-note">Guaranteed slot in one main conference panel discussion (subject to topic relevance).</div>
+          </td>
+          <td>✓</td>
+          <td>✓</td>
+          <td><span class="no-benefit">×</span></td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Premium Branding</div>
+            <div class="benefit-note">Logo placement in conference materials, website, and promotional items.</div>
+          </td>
+          <td>✓<div class="tier-note">Premium position</div></td>
+          <td>✓<div class="tier-note">Featured position</div></td>
+          <td>✓<div class="tier-note">Standard position</div></td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Conference Passes</div>
+            <div class="benefit-note">Complimentary full access passes including workshops and main conference.</div>
+          </td>
+          <td>3 passes<div class="tier-note">$9,900 value</div></td>
+          <td>2 passes<div class="tier-note">$6,600 value</div></td>
+          <td>1 pass<div class="tier-note">$3,300 value</div></td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Workshop Discount</div>
+            <div class="benefit-note">Special rate for additional workshop registrations beyond complimentary passes.</div>
+          </td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+          <td><span class="no-benefit">×</span></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Logo on Main Stage</div>
+            <div class="benefit-note">Company logo displayed on main conference stage banner.</div>
+          </td>
+          <td>✓<div class="tier-note">Large size</div></td>
+          <td>✓<div class="tier-note">Medium size</div></td>
+          <td>✓<div class="tier-note">Standard size</div></td>
+          <td>✓<div class="tier-note">Standard size</div></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="benefit-name">Social Media Recognition</div>
+            <div class="benefit-note">Acknowledgment on INTERSECT's social media channels.</div>
+          </td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <div class="sponsor-notes">
