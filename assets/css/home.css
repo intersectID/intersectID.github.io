@@ -100,9 +100,25 @@ body {
 }
 
 .site-logo img {
-    height: 90px;
+    height: 80px;
     width: auto;
     max-width: 100%;
+}
+
+/* Responsive adjustments for logo */
+@media (max-width: 768px) {
+    .site-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .site-logo img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+    }
 }
 
 .main-nav {
@@ -471,7 +487,8 @@ th {
     }
 
     .site-logo img {
-        height: 50px;
+        width: 100%;
+        height: auto;
     }
 
     .main-nav {
@@ -566,7 +583,8 @@ th {
 /* Extra small devices */
 @media (max-width: 480px) {
     .site-logo img {
-        max-height: 40px;
+        width: 100%;
+        height: auto;
     }
 
     .main-content {
@@ -1812,6 +1830,7 @@ h1, h2, h3, h4, h5, h6,
     color: #039311;
     position: absolute;
     left: 0;
+    top: -4px;
     font-weight: bold;
 }
 
