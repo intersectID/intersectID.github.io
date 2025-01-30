@@ -316,7 +316,7 @@ Before the workshop, you need to complete: 1) a short survey about your backgrou
 
 In order to complete the workshop and qualify for the certificate of completion (and a goodie bag from INTERSECT 2025), you need to: 1) attend all the required sessions (morning and mid-day sessions), 2) submit a project proposal, and 3) write a short reflection essay that discusses your learning from the workshop and your future plans.
 
----
+
 
 ## Side Events
 **21-23 November 2025 | Various Locations**
