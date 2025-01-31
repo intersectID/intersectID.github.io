@@ -12,9 +12,17 @@ og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 
 # Contact Us
 
-Our committee is always ready to help you with any questions or concerns you may have. Feel free to contact us at via email or our social media.
+## Interested in INTERSECT 2025?
+
+<div class="cta-buttons">
+  <a href="https://airtable.com/appziOchtlYgiXXdi/pagHHayVflZU6eIoN/form" class="btn btn-primary" target="_blank">
+    📝 Stay in touch with INTERSECT 2025!
+  </a>
+</div>
 
 ## Email
+
+Our committee is always ready to help you with any questions or concerns you may have. Feel free to contact us at via email or our social media.
 
 <ul>
     <li>General: <strong>intersect.indonesia@gmail.com</strong></li>

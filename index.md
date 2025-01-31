@@ -326,7 +326,7 @@ hidebreadcrumbs: true
             <li class="committee-item">
                 <span class="committee-role">Program Chair</span>
                 <span class="committee-name">Bari Hanafi</span>
-                <span class="committee-affiliation">University of Arkansas</span>
+                <span class="committee-affiliation">University of Arkansas at Little Rock</span>
             </li>
             <li class="committee-item">
                 <span class="committee-role">Conference Chair</span>
@@ -369,6 +369,11 @@ hidebreadcrumbs: true
                 <span class="committee-affiliation">Universitas Indonesia</span>
             </li>
             <li class="committee-item">
+                <span class="committee-name">Dewanti Anggrahini</span>
+                <span class="committee-affiliation">ITS Surabaya</span>
+                <span class="committee-affiliation">National Tsing Hua University</span>
+            </li>
+            <li class="committee-item">
                 <span class="committee-name">Muhammad Fadhil Ginting</span>
                 <span class="committee-affiliation">Stanford University</span>
             </li>
@@ -381,8 +386,9 @@ hidebreadcrumbs: true
                 <span class="committee-affiliation">Michigan State University</span>
             </li>
             <li class="committee-item">
-                <span class="committee-name">Yusril Ikhtiar Muhammad</span>
-                <span class="committee-affiliation">Islamic University of Indonesia</span>
+                <span class="committee-name">Diesta Iva Maftuhah</span>
+                <span class="committee-affiliation">ITS Surabaya</span>
+                <span class="committee-affiliation">North Carolina State University</span>
             </li>
             <li class="committee-item">
                 <span class="committee-name">Nefriana</span>
@@ -390,6 +396,7 @@ hidebreadcrumbs: true
             </li>
             <li class="committee-item">
                 <span class="committee-name">Hilyatun Nuha</span>
+                <span class="committee-affiliation">University of 17 Agustus 1945</span>
                 <span class="committee-affiliation">ITS Surabaya</span>
             </li>
             <li class="committee-item">
@@ -434,6 +441,13 @@ hidebreadcrumbs: true
     <li>General: <strong>intersect.indonesia@gmail.com</strong></li>
     <li>Sponsorship: <strong>sponsor@intersect.id</strong></li>    
 </ul>
+
+You can also sign up for our newsletter to stay updated on the latest news and events.
+<div class="cta-buttons">
+  <a href="https://airtable.com/appziOchtlYgiXXdi/pagHHayVflZU6eIoN/form" class="btn btn-primary" target="_blank">
+    📝 Stay in touch with INTERSECT 2025
+  </a>
+</div>
 </div>
 
 <h2>Supported By</h2>

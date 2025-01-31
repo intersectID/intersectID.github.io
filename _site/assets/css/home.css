@@ -1454,8 +1454,14 @@ h3 {
     border: 1px solid white;
     border-radius: 8px;
     padding: 1.5rem;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;  /* Smoother transition */
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.leader-card:hover {
+    transform: translateY(-3px);  /* Slight lift effect */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);  /* Stronger shadow on hover */
+    border-color: rgba(3, 147, 17, 0.2);  /* Subtle border color change */
 }
 
 .leader-name {
@@ -2075,7 +2081,7 @@ h1, h2, h3, h4, h5, h6,
   }
   
   .timeline-item {
-    margin-left: 40px;
+    margin-left: 0;
   }
   
   .timeline-item::before {
@@ -2855,4 +2861,70 @@ h2 {
   .sponsor-tier .no-benefit {
     font-size: 1.3rem;
   }
+}
+
+/* CTA Button styles */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #039311;
+    color: white !important;
+    border: none;
+    box-shadow: 0 2px 4px rgba(3, 147, 17, 0.2);
+}
+
+.btn-primary:hover {
+    background: #027b0e;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(3, 147, 17, 0.3);
+    text-decoration: none;
+}
+
+/* Footer signup button */
+.footer-signup {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* Menu signup button */
+.nav-signup {
+    margin-left: 1rem;
+}
+
+.nav-signup .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .btn {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .nav-signup {
+        margin: 1rem 0;
+        width: 100%;
+    }
 }
