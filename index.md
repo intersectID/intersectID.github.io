@@ -408,6 +408,10 @@ hidebreadcrumbs: true
                 <span class="committee-affiliation">Universitas Hasanuddin</span>
             </li>
             <li class="committee-item">
+                <span class="committee-name">Romal Ramadhan</span>
+                <span class="committee-affiliation">University of Texas, Austin</span>
+            </li>
+            <li class="committee-item">
                 <span class="committee-name">I Made Agus Setiawan</span>
                 <span class="committee-affiliation">University of Pittsburgh</span>
             </li>
