@@ -25,7 +25,15 @@
 <loc>http://localhost:4000/submission/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/assets/pdf/guidebook-intersect-young-researcher-competition-2025.pdf</loc>
+<lastmod>2025-04-15T11:50:48-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdf/invitation-intersect-young-researcher-competition-2025.pdf.pdf</loc>
+<lastmod>2025-04-15T11:51:04-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/templates/INTERSECT_LaTeX_template.pdf</loc>
-<lastmod>2025-01-29T09:21:31-08:00</lastmod>
+<lastmod>2025-01-28T20:40:09-08:00</lastmod>
 </url>
 </urlset>

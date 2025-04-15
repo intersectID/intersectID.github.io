@@ -16,7 +16,7 @@ Welcome to the Young Researcher Competition, a unique opportunity for high schoo
 
 ## Overview
 
-The competition invites high school students to submit short research papers related to the symposium theme. The goal is to encourage students to explore the intersection of technology, sustainability, and society and to develop their research skills. This is an excellent platform for young minds to express their ideas and contribute to significant discussions in technology, sustainability, and society. Finalists will be invited to present their work **remotely (synchronous)** at the symposium. The top three winners will receive certificates and cash prizes. 
+The competition invites high school students to submit short research papers related to the symposium theme. The goal is to encourage students to explore the intersection of technology, sustainability, and society and to develop their research skills. This is an excellent platform for young minds to express their ideas and contribute to significant discussions in technology, sustainability, and society. Finalists will be invited to present their work **remotely (synchronous)** at the symposium. The top three winners will receive certificates and cash prizes.
 
 ## Eligibility
 
@@ -24,33 +24,48 @@ The competition invites high school students to submit short research papers rel
 - Each paper must be authored by one to three students, and supervised by a teacher or school representative.
 - Each student can only participate in one paper.
 
-## Paper Guidelines
+## Guidelines
 
 - The paper should be related to the symposium theme.
 - Written fully in English and free of plagiarism.
 - Length: 5-8 pages (excluding references).
 - Original work: At least 95% of the content must be authored by the student or student team (up to 3 students).
 
+<div class="cta-buttons">
+  <a href="https://intersect.id/assets/pdf/guidebook-intersect-young-researcher-competition-2025.pdf" class="btn btn-primary" target="_blank">
+    Download Competition Guidelines
+  </a>
+</div>
+
 ## Submission Process
 
-- Prepare your paper according to the guidelines (see the [submission](submission) page).
-- Include one page of each student's CV (including name, school, and contact information).
-- Include one page of the supervising teacher's CV (including name, school, and contact information).
-- Include a letter of recommendation from the school principal or supervising teacher, confirming the student's enrollment and participation in the competition.
-- Combine all documents with the paper into a single PDF file and submit it through our [submission system](#) (link coming soon) before the deadline.
-- Pay the registration fee through our [registration system](#) (link coming soon).
+- You will need to submit your abstract first, and then submit your full paper (upon acceptance), in our [submission system](#) (link coming soon).
+- You will need to pay the registration fee through our partner's (MyKampus) [registration system](https://checkout.xendit.co/od/intersect25-young-researcher-competition). Use the promo code `EarlyBirdsINTERSECT2025` at checkout to get the early bird discount (valid until August 15<sup>th</sup>, 2025).
+- Please be sure to follow the [competition guidelines](https://intersect.id/assets/pdf/guidebook-intersect-young-researcher-competition-2025.pdf) to receive full consideration for the competition.
 
 ## Key Dates
 
-- **Submission Deadline**: August 30<sup>th</sup>, 2025, 23:59:59 Anywhere on Earth (AoE)
-- **Notification of Finalists**:  September 15<sup>th</sup>, 2025
-- **Final Presentation**: October 31<sup>st</sup>, 2025
+- **Abstract Submission Deadline**: August 17<sup>th</sup>, 2025, 23:59:59 Anywhere on Earth (AoE)
+- **Full Paper Submission Deadline (Early Bird)**: August 15<sup>th</sup>, 2025, 23:59:59 AoE
+- **Full Paper Submission Deadline**: September 1<sup>st</sup>, 2025, 23:59:59 AoE
+- **Notification of Finalists**: September 15<sup>th</sup>, 2025
+- **Final Presentation (Remote)**: October 31<sup>st</sup>, 2025
+- **Winner Announcement**: November 1<sup>st</sup>, 2025
 
 ## Awards
 
 - The top three winners will receive certificates and cash prizes.
 - Finalists will be invited to present their work remotely at the conference.
 
+## Invitation Letter
+
+If you need an invitation letter to your school administration, please download the letter [here](https://intersect.id/assets/pdf/invitation-intersect-young-researcher-competition-2025.pdf). Let us know if you need any assistance.
+
+<div class="cta-buttons">
+  <a href="https://intersect.id/assets/pdf/invitation-intersect-young-researcher-competition-2025.pdf" class="btn btn-primary" target="_blank">
+    Download the Invitation Letter
+  </a>
+</div>
 
 ## Contact Information
 
