@@ -7,12 +7,18 @@ keywords: "INTERSECT 2025, competition, young researchers, competition"
 toc: true
 auto_toc: true
 date: 2025-01-29
-og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
+og_image: "https://intersect.id/assets/img/poster-intersect-young-researcher-competition-2025.png"
 ---
 
 # Young Researcher Competition (For High School Students)
 
 Welcome to the Young Researcher Competition, a unique opportunity for high school students in Indonesia to showcase their research skills and contribute to the theme of **Indonesia at the Crossroad of Technology, Sustainability, and Society**. This competition is part of **INTERSECT 2025**, held at [Stanford University](https://www.stanford.edu/) on November 20<sup>th</sup>, 2025.
+
+<div class="cta-buttons">
+  <a href="https://intersect.id/assets/img/poster-intersect-young-researcher-competition-2025.png" class="btn btn-primary" target="_blank">
+    Download the Competition Poster
+  </a>
+</div>
 
 ## Overview
 
