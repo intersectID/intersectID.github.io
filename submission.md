@@ -12,7 +12,13 @@ og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
 
 # Submission Guidelines
 
-The submission system will be available in March 2025. Meanwhile, review the guidelines below to prepare your submission.
+The submission system is live through [Papertrack](https://intersect.papertrack.app/). Please review the guidelines below to prepare your submission.
+
+<div class="cta-buttons">
+  <a href="https://intersect.papertrack.app/" class="btn btn-primary" target="_blank">
+    Submit Your Paper Now
+  </a>
+</div>
 
 ## Template
 
@@ -23,7 +29,7 @@ Please use this [template](/assets/templates/INTERSECT_LaTeX_template.pdf){:targ
 
 ## Submission System
 
-Please submit your full or extended abstract electronically through [our submission system](#) (link coming soon) as a .pdf, .docx, or .zip file. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com){:target="_blank"}.
+Please submit your full or extended abstract electronically through [Papertrack](https://intersect.papertrack.app/) as a .pdf, .docx, or .zip file. Should you encounter any issues during submission, feel free to reach out to the conference organizers at [intersect.indonesia@gmail.com](mailto:intersect.indonesia@gmail.com){:target="_blank"}.
 
 ## Guidelines
 Upon submission, your manuscript will undergo an initial review for suitability by the conference organizers. It may then be forwarded to two or more program committees for further review, or potentially rejected at this stage. To ensure a smooth review process, kindly adhere to the following guidelines:
@@ -44,5 +50,9 @@ Upon submission, your manuscript will undergo an initial review for suitability 
 14. Avoid footnotes and end-notes.
 15. Acknowledgements, particularly of funding sources, should precede the reference list.
 16. Use the provided templates ([MS Word](/assets/templates/INTERSECT_MSWord_template.docx) and [LaTeX](/assets/templates/INTERSECT-LaTeX-template.zip)) for your manuscript without altering the format and style.
+
+## Indexing
+
+All accepted papers will be indexed in Google Scholar and assigned a DOI.
 
 Thank you for your interest in contributing to INTERSECT 2025, and we look forward to your submissions.

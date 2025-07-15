@@ -18,6 +18,9 @@ Welcome to the Young Researcher Competition, a unique opportunity for high schoo
   <a href="https://intersect.id/assets/img/poster-intersect-young-researcher-competition-2025.png" class="btn btn-primary" target="_blank">
     Download the Competition Poster
   </a>
+  <a href="https://intersect.papertrack.app/" class="btn btn-primary" target="_blank">
+    Submit Your Abstract Now
+  </a>
 </div>
 
 ## Overview

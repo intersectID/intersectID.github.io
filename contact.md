@@ -38,13 +38,13 @@ Want to sponsor INTERSECT 2025? Visit our [sponsors page](/sponsors)!
 
 ## Supported By
 <div class="sponsors-grid">
-    <div class="sponsor-card sponsor-card-large">
+    <div class="sponsor-card sponsor-card-small">
         <img src="/assets/img/KJRI_SF.jpg" alt="Konsulat Jenderal Republik Indonesia di San Francisco">
     </div>
     <div class="sponsor-card sponsor-card-small">
-        <img src="/assets/img/ewakopedia.jpg" alt="Ewakopedia">
+        <img src="/assets/img/mindstem.jpeg" alt="Mindstem.id">
     </div>
     <div class="sponsor-card sponsor-card-small">
-        <img src="/assets/img/mindstem.jpeg" alt="Mindstem.id">
+        <img src="/assets/img/ai-safety-indonesia.svg" alt="AI Safety Indonesia">
     </div>
 </div>
