@@ -47,7 +47,7 @@ hidebreadcrumbs: true
             <h3 class="speaker-name">Yandra Arkeman</h3>
             <p class="speaker-title">Professor in Agroindustrial Technology, IPB University</p>
         </div>  
-        
+
         <div class="speaker-card">
             <div class="speaker-image">
                 <img src="/assets/img/jef-caers.jpg" alt="Jef Caers">
@@ -512,11 +512,7 @@ hidebreadcrumbs: true
 </div>
 
 <h2>Contact Us</h2>
-<p>For more information or to get involved, please contact us at:</p>
-<ul>
-    <li>General: <strong>intersect.indonesia@gmail.com</strong></li>
-    <li>Sponsorship: <strong>sponsor@intersect.id</strong></li>    
-</ul>
+<p>For more information or to get involved, please contact us at:<strong>intersect.indonesia@gmail.com</strong></p>
 
 You can also sign up for our newsletter to stay updated on the latest news and events.
 <div class="cta-buttons">
