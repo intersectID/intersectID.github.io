@@ -29,6 +29,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/home.css">
 
+    <!-- External CSS -->
+    {% if page.ext-css %}
+      {% for css in page.ext-css %}
+        {% include ext-css.html css=css %}
+      {% endfor %}
+    {% endif %}
     
     {% if page.fullwidth %}
     <style>

@@ -1,0 +1,130 @@
+
+/* Registration Section Styling */
+.register-section {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.register-section .btn-lg {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #039311;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.register-section .btn-lg:hover {
+    background-color: #027a0e;
+    text-decoration: none;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.coupon-note {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+/* Workshop Buttons Styling */
+.workshop-buttons {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.workshop-buttons h3 {
+    color: #039311;
+    margin-bottom: 2rem;
+}
+
+.workshop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.workshop-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.workshop-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.workshop-item h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.workshop-title {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.workshop-item .btn-lg {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #039311;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.workshop-item .btn-lg:hover {
+    background-color: #027a0e;
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .register-section {
+        padding: 1.5rem;
+    }
+    
+    .register-section .btn-lg {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .workshop-buttons {
+        padding: 1.5rem;
+    }
+    
+    .workshop-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .workshop-item {
+        padding: 1.25rem;
+    }
+}

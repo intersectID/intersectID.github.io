@@ -53,6 +53,8 @@ Upon submission, your manuscript will undergo an initial review for suitability 
 
 ## Indexing
 
-All accepted papers will be indexed in Google Scholar and assigned a DOI.
+All accepted papers will be indexed in Google Scholar and assigned a DOI. 
+
+Some invited presenters (with already published papers) may be exempted from this requirement and will only present their paper for free (by invitation only) for increased visibility and connect with the audience. We will explicitly state this in the invitation letter.
 
 Thank you for your interest in contributing to INTERSECT 2025, and we look forward to your submissions.

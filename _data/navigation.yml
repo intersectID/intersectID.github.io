@@ -9,5 +9,7 @@ main:
     url: "/competition"
   - title: "Registration"
     url: "/registration"
+  - title: "Attend"
+    url: "/attend"
   - title: "Contact"
     url: "/contact" 

@@ -8,6 +8,8 @@ toc: true
 auto_toc: true
 date: 2025-01-29
 og_image: "https://intersect.id/assets/img/INTERSECT25_CoverLight.jpg"
+ext-css:
+  - "/assets/css/registration-buttons.css"
 ---
 
 # Registration Fees
@@ -24,31 +26,35 @@ Conference registration fees are for the conference only (main event at November
         <thead>
             <tr>
                 <th>Category</th>
-                <th>Early Bird<span class="date-range">Jul 1 - Aug 31, 2025</span></th>
-                <th>Regular<span class="date-range">Sep 1 - Oct 31, 2025</span></th>
+                <th>Early Bird<span class="date-range">Jul 1 - September 30, 2025</span></th>
+                <th>Regular<span class="date-range">October 1 - October 31, 2025</span></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td data-label="Category">Student</td>
-                <td data-label="Early Bird (Jul 1 - Aug 31)">$50</td>
-                <td data-label="Regular (Sep 1 - Oct 31)">$100</td>
+                <td data-label="Early Bird (Jul 1 - Sep 30)">$50</td>
+                <td data-label="Regular (Oct 1 - Oct 31)">$100</td>
             </tr>
             <tr>
                 <td data-label="Category">Professional</td>
-                <td data-label="Early Bird (Jul 1 - Aug 31)">$200</td>
-                <td data-label="Regular (Sep 1 - Oct 31)">$300</td>
+                <td data-label="Early Bird (Jul 1 - Sep 31)">$200</td>
+                <td data-label="Regular (Oct 1 - Oct 31)">$300</td>
             </tr>
             <tr>
                 <td data-label="Category">Remote Listener</td>
-                <td data-label="Early Bird (Jul 1 - Aug 31)">$25</td>
-                <td data-label="Regular (Sep 1 - Oct 31)">$50</td>
+                <td data-label="Early Bird (Jul 1 - Sep 30)">$25</td>
+                <td data-label="Regular (Oct 1 - Oct 31)">$50</td>
             </tr>
         </tbody>
     </table>
 </div>
 
 Each conference registration covers both the attendance and the publication fee, except for the remote listener. However, we reserve the right to remove your paper from the publication if you are not able to present your work at the conference.
+
+<div class="register-section">
+    <a href="http://lu.ma/z1f8intw" class="btn btn-primary btn-lg" target="_blank">Register for Conference</a>
+</div>
 
 ## Executive Workshop Registration
 
@@ -59,8 +65,8 @@ Executive workshop registration fees are for the workshop only (3-day workshop a
         <thead>
             <tr>
                 <th>Category</th>
-                <th>Early Bird<span class="date-range">Mar 1 - Jun 30, 2025</span></th>
-                <th>Regular<span class="date-range">Jul 1 - Oct 31, 2025</span></th>
+                <th>Early Bird<span class="date-range">Mar 1 - Sep 30, 2025</span></th>
+                <th>Regular<span class="date-range">Oct 1 - Oct 31, 2025</span></th>
                 <th>Last-minute<span class="date-range">Nov 1 - 18, 2025</span></th>
             </tr>
         </thead>
@@ -84,10 +90,34 @@ Executive workshop registration fees are for the workshop only (3-day workshop a
 <p class="fee-note">* Workshop fees do not include accommodations</p>
 <p class="fee-note">* All fees are in USD</p>
 
+<div class="workshop-buttons">
+    <h3>Choose Your Workshop</h3>
+    <div class="workshop-grid">
+        <div class="workshop-item">
+            <h4>Workshop 1</h4>
+            <p class="workshop-title">Decision Making for Energy Resilience</p>
+            <a href="https://lu.ma/0bqct9al" class="btn btn-primary btn-lg" target="_blank">REGISTER</a>
+        </div>
+        <div class="workshop-item">
+            <h4>Workshop 2</h4>
+            <p class="workshop-title">Data Science for Critical Minerals</p>
+            <a href="https://lu.ma/9sy275yq" class="btn btn-primary btn-lg" target="_blank">REGISTER</a>
+        </div>
+        <div class="workshop-item">
+            <h4>Workshop 3</h4>
+            <p class="workshop-title">AI Safety for Emerging Economies</p>
+            <a href="https://lu.ma/r3gr1gg2" class="btn btn-primary btn-lg" target="_blank">REGISTER</a>
+        </div>
+    </div>
+    <p class="coupon-note"><em>Early bird rates available to select during registration</em></p>
+</div>
+
 <div class="registration-steps">
     <h2>How to Register</h2>
     <ol>
-        <li>Fill out the registration form <a href="#">here</a> (link will be available soon)</li>
+        <li>Click the registration button above for your category</li>
+        <li>Fill out the registration form on the event platform</li>
+        <li>Use the provided coupon code for early bird rates (if applicable)</li>
         <li>Complete the payment through our secure payment gateway</li>
         <li>You will receive a confirmation email with further instructions</li>
     </ol>
@@ -115,7 +145,7 @@ Executive workshop registration fees are for the workshop only (3-day workshop a
     <div class="faq-item">
         <div class="faq-question">Do we offer a refund?</div>
         <div class="faq-answer">
-            We offer a refund if you cancel your registration before the early bird deadline. After the early bird deadline, the registration fee is non-refundable.
+            We offer a refund if you cancel your registration before the early bird deadline. After the early bird deadline, the registration fee is non-refundable, unless you are rejected for visa.
         </div>
     </div>
     
