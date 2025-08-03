@@ -17,7 +17,7 @@ We're excited to welcome you to INTERSECT 2025! Here's everything you need to kn
 
 ### Do I Need a Visa?
 
-Most Southeast Asian visitors will need a [**B-1 Business Visa**](https://www.uscis.gov/working-in-the-united-states/temporary-visitors-for-business/b-1-temporary-business-visitor) to attend INTERSECT 2025. This is the standard visa for conferences, workshops, and professional meetings.
+Most Southeast Asian visitors will need a [**Visitor Visa**](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html) to attend INTERSECT 2025.
 
 **Good news for some countries:** If you're from Singapore or Brunei, you might be eligible for the [**Visa Waiver Program (ESTA)**](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html).
 
