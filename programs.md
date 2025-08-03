@@ -20,28 +20,36 @@ The main conference will feature keynote speeches from industry leaders and expe
 
 <div class="timeline-item">  
   <div class="content">
-    <div class="time">10:00 - 10:30 PST</div>
+    <div class="time">9:00 - 9:30 PST</div>
     <h4>Welcome Remarks</h4>
     <ul>
       <li><h5>General Chair Reports</h5>Mansur M. Arief (Stanford University)</li>
       <li><h5>Welcome Remarks from the Consul General of Indonesia in San Francisco</h5>Prasetyo Hadi (KJRI SF)</li>
-      <li><h5>Keynote Briefs #1</h5>(TBA)</li>
+      <li><h5>Keynote Remarks</h5>Professor Jef Caers, Stanford University</li>
     </ul>
   </div>
 </div>
 
 <div class="timeline-item">  
   <div class="content">
-    <div class="time">10:30 - 12:00 PST</div>
-    <h4>Keynote Speeches & Q&A</h4>
+    <div class="time">9:30 - 11:00 PST</div>
+    <h4>Keynote Plenary & Q&As</h4>
     <ul>
-      <li><h5>Keynote Address #2</h5>(TBA)</li>
+      <li><h5>Keynote Plenary #1</h5>Professor Adi Maulana, UNHAS (Building Strategic Collaborations with US Universities)</li>
       <li>Moderated Q&A</li>
-      <li><h5>Panel Discussion #1: The Role of Technology in Indonesia's Energy Transition</h5></li>
-      <ul>
-        <li class="sub-item">Panelists and Moderator (TBA)</li>
-        <li class="sub-item">Moderated Q&A</li>
-      </ul>
+      <li><h5>Keynote Plenary #2</h5>Rachmat Kaimuddin, Ministry of Infrastructure and Regional Development Resources, Indonesia (Sustainability and Circular Economy in Emerging Economies)</li>
+      <li><h5>Keynote Plenary #3</h5>Professor Nyoman Pujawan, ITS (Advances in Supply Chain Management from South East Asia Perspectives)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="timeline-item">  
+  <div class="content">
+    <div class="time">11:00 - 12:00 PST</div>
+    <h4>Panel Discussion #1: Collaborations in Indonesia's Sustainable Energy and Health Equality</h4>
+    <ul>      
+        <li class="sub-item">Rachmadian Wulandana (SUNY New Paltz), George Anwar (UC Berkeley), Datu Buyung Agusdinata (ASU), Ansariyadi (UNHAS)</li>
+        <li class="sub-item">Moderator: Rachman Setiawan (UC Berkeley)</li>
     </ul>
   </div>
 </div>
@@ -52,8 +60,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <h4>Lunch & Networking</h4>
     <ul>
       <li>Lunch Provided</li>
-      <li>Spotlight Session (1-minute pitch for selected papers)</li>
-      <li>Industry Highlight (5-minute pitch for selected companies)</li>
+      <li>Spotlight Session (1-minute pitch for selected papers/posters)</li>
       <li>Unassigned Table for Networking</li>
       <li>Prayer Space for Muslim Attendees Provided</li>
     </ul>
@@ -62,15 +69,24 @@ The main conference will feature keynote speeches from industry leaders and expe
 
 <div class="timeline-item">  
   <div class="content">
-    <div class="time">13:00 - 14:00 PST</div>
-    <h4>Post-lunch Keynote</h4>
+    <div class="time">13:00 - 14:30 PST</div>
+    <h4>Post-lunch Keynote Plenary & Q&As</h4>
     <ul>
-      <li><h5>Keynote Address #3</h5>(TBA)</li>
-      <li><h5>Panel Discussion #2: Turning Reserves into Resources: How Indonesia Can Lead the Global Energy Transition</h5></li>
-      <ul>
-        <li class="sub-item">Panelists and Moderator (TBA)</li>
-        <li class="sub-item">Moderated Q&A</li>
-      </ul>
+      <li><h5>Keynote Plenary #4</h5>Professor Premukar Rajagopal, Malaysia University of Science and Technology (Sustainable Supply Chains for Global Economic Growth)</li>
+      <li><h5>Keynote Plenary #5</h5>Dini Maghfirra, Satu Data Indonesia (Digital Economy and Governance for Sustainable Development)</li>
+      <li><h5>Keynote Plenary #6</h5>Yandra Arkeman, IPB University (Blockchains and Intelligent Systems for Global Traceability and Sustainable Commodities)</li>
+      <li>Moderated Q&A</li>
+    </ul>
+  </div>
+</div>
+
+<div class="timeline-item">  
+  <div class="content">
+    <div class="time">14:30 - 15:30 PST</div>
+    <h4>Panel Discussion #2: Supply Chain and Global Collaboration Perspectives for Planetary Sustainability</h4>
+    <ul>      
+        <li class="sub-item">Jef Caers (Stanford), Nyoman Pujawan (ITS), Premkumar Rajagopal (UMST), Adi Maulana (UNHAS), Rachmat Kaimuddin (Ministry of Infrastructure and Regional Development Resources, Indonesia)</li>
+        <li class="sub-item">Moderator: Mansur Arief (Stanford)</li>
     </ul>
   </div>
 </div>
@@ -82,7 +98,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <p><em>Data Science, AI, and Emerging Technologies in Sustainability</em></p>
     <ul>
         <li><h5>Invited Speaker</h5> (TBA)</li>
-        <li><h5>Chair</h5> (TBA)</li>
+        <li><h5>Chair</h5>Nur Ahmad Khatim, ITS</li>
         <li><h5>Paper Presentations</h5> (TBA)</li>
     </ul>
   </div>
@@ -95,7 +111,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <p><em>Energy Transition Economics, Policy, and Society</em></p>
     <ul>
         <li><h5>Invited Speaker</h5> (TBA)</li>
-        <li><h5>Chair</h5> (TBA)</li>
+        <li><h5>Chair</h5>Zulkifli Palinrungi, CMU</li>
         <li><h5>Paper Presentations</h5> (TBA)</li>
     </ul>
   </div>
@@ -108,7 +124,33 @@ The main conference will feature keynote speeches from industry leaders and expe
     <p><em>Critical Minerals and Earth Resources for Energy Transition</em></p>
     <ul>
         <li><h5>Invited Speaker</h5> (TBA)</li>
-        <li><h5>Chair</h5> (TBA)</li>
+        <li><h5>Chair</h5> Romal Ramadhan, UT Austin</li>
+        <li><h5>Paper Presentations</h5> (TBA)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="timeline-item">  
+  <div class="content">
+    <div class="time">13:00 - 16:00 PST</div>
+    <h4>Parallel Session, Track 4</h4>
+    <p><em>AI in Healthcare</em></p>
+    <ul>
+        <li><h5>Invited Speaker</h5> (TBA)</li>
+        <li><h5>Chair</h5> Azmul Asmar Irfan, UIN Syarif Hidayatullah</li>
+        <li><h5>Paper Presentations</h5> (TBA)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="timeline-item">  
+  <div class="content">
+    <div class="time">13:00 - 16:00 PST</div>
+    <h4>Parallel Session, Track 5</h4>
+    <p><em>Emerging Supply Chain Management and Applications</em></p>
+    <ul>
+        <li><h5>Invited Speaker</h5> (TBA)</li>
+        <li><h5>Chair</h5> Faizal Lihawa, Columbia</li>
         <li><h5>Paper Presentations</h5> (TBA)</li>
     </ul>
   </div>
@@ -117,10 +159,10 @@ The main conference will feature keynote speeches from industry leaders and expe
 
 <div class="timeline-item">  
   <div class="content">
-    <div class="time">15:30 - 17:00 PST</div>
+    <div class="time">16:00 - 18:00 PST</div>
     <h4>Networking Break</h4>
     <ul>
-      <li>Unassigned Table for Networking</li>
+      <li>Coffee Break</li>
       <li>Explore Stanford University Campus</li>
       <li>Photo Booth</li>
       <li>Prayer Space for Muslim Attendees Provided</li>
@@ -130,14 +172,11 @@ The main conference will feature keynote speeches from industry leaders and expe
 
 <div class="timeline-item">
   <div class="content">
-    <div class="time">17:00 - 20:00 PST</div>
+    <div class="time">18:00 - 20:00 PST</div>
     <h4>Dinner and Reception</h4>
-    <ul>
-      <li>Refreshments</li>
-      <li><h5>Keynote Address #4</h5> (TBA)</li>
-      <li>Prayer Space for Muslim Attendees Provided</li>
+    <ul>      
       <li>Dinner Provided</li>
-      <li><h5>Keynote Address #5</h5> (TBA)</li>
+      <li>Prayer Space for Muslim Attendees Provided</li>      
       <li>Awards & Announcements</li>
     </ul>
   </div>
@@ -146,7 +185,7 @@ The main conference will feature keynote speeches from industry leaders and expe
 </div>
 
 
-## Workshop #1: Decision Making Under Uncertainty for Sustainable Energy Transition
+## Workshop #1: Decision Making under Uncertainty for Sustainable Energy Transition
 **17-19 November 2025 | Stanford University, USA**
 
 The workshop will focus on the decision making process under uncertainty for sustainable energy transition, covering topics such as risk management, uncertainty in energy transition, and decision making under uncertainty.
@@ -316,6 +355,91 @@ Before the workshop, you need to complete: 1) a short survey about your backgrou
 
 In order to complete the workshop and qualify for the certificate of completion (and a goodie bag from INTERSECT 2025), you need to: 1) attend all the required sessions (morning and mid-day sessions), 2) submit a project proposal, and 3) write a short reflection essay that discusses your learning from the workshop and your future plans.
 
+
+## Workshop #3: AI Safety for Emerging Economies
+**17-19 November 2025 | Stanford University, USA**
+
+The workshop will focus on the AI safety, covering topics such as AI safety, AI governance, and AI risk management.
+
+### Daily Schedule
+
+Every day, the workshop will be held from 9:00 to 15:00 PST. You will be provided with lunch and coffee break refreshments (morning and afternoon).
+<div class="timeline timeline-workshop">
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">09:00 - 10:30 PST</div>
+      <h4>Morning Lecture</h4>
+      <p>Lecture and Q&A sessions with the instructor</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">11:00 - 12:30 PST</div>
+      <h4>Mid-day Session</h4>
+      <p>Hands-on exercises and discussions</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">13:30 - 15:00 PST</div>
+      <h4>Afternoon Session</h4>
+      <p>Collaborative sessions with your cohort and teaching assistants</p>
+    </div>
+  </div>
+</div>
+
+You are required to attend both the morning and mid-day sessions every day. The afternoon session is optional, but highly recommended for you to get the most out of the workshop and network with your cohort and teaching assistants.
+
+### Workshop Topics
+
+The workshop will be divided into three days, with each day focusing on a different topic.
+
+<div class="timeline timeline-workshop">
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">Day 1 (17 Nov)</div>
+      <h4>Introduction to AI Safety</h4>
+      <ul>
+        <li>Instructor: (TBA)</li>
+        <li>Teaching Assistant: (TBA)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">Day 2 (18 Nov)</div>
+      <h4>Risks and Mitigation Strategies from AI Engineering, Policy, and Governance</h4>
+      <ul>
+        <li>Instructor: (TBA)</li>
+        <li>Teaching Assistant: (TBA)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="content">
+      <div class="time">Day 3 (19 Nov)</div>
+      <h4>Global Collaboration and Resources for AI Safety</h4>
+      <ul>
+        <li>Instructor: (TBA)</li>
+        <li>Teaching Assistant: (TBA)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+### Pre-workshop requirements
+
+Before the workshop, you need to complete: 1) a short survey about your background, interest in the workshop, and a bit about your energy transition journey, 2) a preliminary video viewing about the workshop. 
+
+### Completion requirements
+
+In order to complete the workshop and qualify for the certificate of completion (and a goodie bag from INTERSECT 2025), you need to: 1) attend all the required sessions (morning and mid-day sessions), 2) submit a project proposal, and 3) write a short reflection essay that discusses your learning from the workshop and your future plans.
 
 
 ## Side Events
