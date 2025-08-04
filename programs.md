@@ -37,7 +37,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <ul>
       <li><h5>Keynote Plenary #1</h5>Professor Adi Maulana, UNHAS (Building Strategic Collaborations with US Universities)</li>
       <li>Moderated Q&A</li>
-      <li><h5>Keynote Plenary #2</h5>Rachmat Kaimuddin, Ministry of Infrastructure and Regional Development Resources, Indonesia (Sustainability and Circular Economy in Emerging Economies)</li>
+      <li><h5>Keynote Plenary #2</h5>Rachmat Kaimuddin, Coordinating Ministry of Infrastructure and Regional Development, Indonesia (Sustainability and Circular Economy in Emerging Economies)</li>
       <li><h5>Keynote Plenary #3</h5>Professor Nyoman Pujawan, ITS (Advances in Supply Chain Management from South East Asia Perspectives)</li>
     </ul>
   </div>
@@ -48,7 +48,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <div class="time">11:00 - 12:00 PST</div>
     <h4>Panel Discussion #1: Collaborations in Indonesia's Sustainable Energy and Health Equality</h4>
     <ul>      
-        <li class="sub-item">Rachmadian Wulandana (SUNY New Paltz), George Anwar (UC Berkeley), Datu Buyung Agusdinata (ASU), Ansariyadi (UNHAS)</li>
+        <li class="sub-item">Rachmadian Wulandana (SUNY New Paltz), George Anwar (UC Berkeley), Datu Buyung Agusdinata (ASU), Ansariyadi (UNHAS), Taufik Nur (UMI)</li>
         <li class="sub-item">Moderator: Rachman Setiawan (UC Berkeley)</li>
     </ul>
   </div>
@@ -72,7 +72,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <div class="time">13:00 - 14:30 PST</div>
     <h4>Post-lunch Keynote Plenary & Q&As</h4>
     <ul>
-      <li><h5>Keynote Plenary #4</h5>Professor Premukar Rajagopal, Malaysia University of Science and Technology (Sustainable Supply Chains for Global Economic Growth)</li>
+      <li><h5>Keynote Plenary #4</h5>Professor Premkumar Rajagopal, Malaysia University of Science and Technology (Sustainable Supply Chains for Global Economic Growth)</li>
       <li><h5>Keynote Plenary #5</h5>Dini Maghfirra, Satu Data Indonesia (Digital Economy and Governance for Sustainable Development)</li>
       <li><h5>Keynote Plenary #6</h5>Yandra Arkeman, IPB University (Blockchains and Intelligent Systems for Global Traceability and Sustainable Commodities)</li>
       <li>Moderated Q&A</li>
@@ -85,7 +85,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <div class="time">14:30 - 15:30 PST</div>
     <h4>Panel Discussion #2: Supply Chain and Global Collaboration Perspectives for Planetary Sustainability</h4>
     <ul>      
-        <li class="sub-item">Jef Caers (Stanford), Nyoman Pujawan (ITS), Premkumar Rajagopal (UMST), Adi Maulana (UNHAS), Rachmat Kaimuddin (Ministry of Infrastructure and Regional Development Resources, Indonesia)</li>
+        <li class="sub-item">Jef Caers (Stanford), Nyoman Pujawan (ITS), Premkumar Rajagopal (MUST), Adi Maulana (UNHAS), Rachmat Kaimuddin (Coordinating Ministry of Infrastructure and Regional Development Resources, Indonesia), Zakir Sabara HW (UMI)</li>
         <li class="sub-item">Moderator: Mansur Arief (Stanford)</li>
     </ul>
   </div>
@@ -149,7 +149,7 @@ The main conference will feature keynote speeches from industry leaders and expe
     <h4>Parallel Session, Track 5</h4>
     <p><em>Emerging Supply Chain Management and Applications</em></p>
     <ul>
-        <li><h5>Invited Speaker</h5> (TBA)</li>
+        <li><h5>Invited Speaker</h5> Syarifuddin M Parenreng (UNHAS)</li>
         <li><h5>Chair</h5> Faizal Lihawa, Columbia</li>
         <li><h5>Paper Presentations</h5> (TBA)</li>
     </ul>

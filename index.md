@@ -61,7 +61,7 @@ hidebreadcrumbs: true
                 <img src="/assets/img/rachmat-kaimuddin.jpeg" alt="Rachmat Kaimuddin">
             </div>
             <h3 class="speaker-name">Rachmat Kaimuddin</h3>
-            <p class="speaker-title">Deputy Minister of Infrastructure and Regional Development Ministry, Republic of Indonesia</p>
+            <p class="speaker-title">Deputy Minister of Coordinating Ministry of Infrastructure and Regional Development, Republic of Indonesia</p>
         </div>  
 
         <div class="speaker-card">
